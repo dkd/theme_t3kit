@@ -14,46 +14,38 @@ lib.gridelements {
                     tabNumber.prioriCalc = intval
                 }
 
-                # class
-                30 = TEXT
-                30 {
-                    value = class="
-                }
-                35 = TEXT
-                35 {
-                    value = tab-pane
-                }
-                40 = TEXT
-                40 {
-                    value.noTrimWrap = | fade|
-                }
-                45 = TEXT
-                45 {
-                    value.noTrimWrap = | in active|
-                    if {
-                        value = 1
-                        equals.data = register:tabNumber
+
+                20 = TEMPLATE
+                20 {
+                    template = TEXT
+                    template {
+                        value = class="tab-pane fade ###ACTIVE### ###TAB_NUMBER### ###PID###" id="###ID###"
                     }
-                }
-                46 = TEXT
-                46 {
-                    value.noTrimWrap = | number-{register:tabNumber}|
-                    value.insertData = 1
-                }
-                47 = TEXT
-                47 {
-                    value.noTrimWrap = | pid-{register:parentUid}|
-                    value.insertData = 1
-                }
-                50 = TEXT
-                50 {
-                    value = "
-                }
-                # id
-                60 = TEXT
-                60 {
-                    field = uid
-                    wrap = id="tab-|"
+                    marks {
+                        ACTIVE = TEXT
+                        ACTIVE {
+                            value = in active
+                            if {
+                                value = 1
+                                equals.data = register:tabNumber
+                            }
+                        }
+                        TAB_NUMBER = TEXT
+                        TAB_NUMBER {
+                            value = number-{register:tabNumber}
+                            insertData = 1
+                        }
+                        PID = TEXT
+                        PID {
+                            value = pid-{register:parentUid}
+                            insertData = 1
+                        }
+                        ID = TEXT
+                        ID {
+                            field = uid
+                            wrap = tab-|
+                        }
+                    }
                 }
 
                 stdWrap.noTrimWrap = |<div role="tabpanel" |>|
