@@ -22,6 +22,12 @@
 			<trans-unit id="subnavigation.ariaLabel" xml:space="preserve">
 				<source>Subnavigation</source>
 			</trans-unit>
+			<trans-unit id="callUs.link.title" xml:space="preserve">
+				<source>call telephone number</source>
+			</trans-unit>
+			<trans-unit id="emailUs.link.title" xml:space="preserve">
+				<source>write an email to us</source>
+			</trans-unit>
 
 
 			<!--Extensions-->

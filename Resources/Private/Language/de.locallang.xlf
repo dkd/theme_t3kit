@@ -13,6 +13,12 @@
 			<trans-unit id="bootstrapCarousel.ariaLabel.control">
 				<target>Zeige Bild %1$s von %2$s</target>
 			</trans-unit>
+			<trans-unit id="callUs.link.title" xml:space="preserve">
+				<target>Rufen Sie die Telefonnummer an</target>
+			</trans-unit>
+			<trans-unit id="emailUs.link.title" xml:space="preserve">
+				<target>Senden Sie eine Email an uns</target>
+			</trans-unit>
 		</body>
 	</file>
 </xliff>
