@@ -16,6 +16,8 @@ plugin.tx_news.settings.list.media.dummyImage = typo3conf/ext/theme_t3kit/Resour
 plugin.tx_news.settings.detail.shariffServices = facebook,twitter,whatsapp
 
 plugin.tx_news.settings.detail.showPrevNext = 1
+# show a file type icon above the file name
+plugin.tx_news.settings.detail.showRelatedFileIcon = 0
 
 # Lightbox data-caption attribute settings for use in Partials/Detail/MediaImage.html
 plugin.tx_news.settings {
