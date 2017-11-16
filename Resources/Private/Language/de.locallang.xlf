@@ -25,6 +25,12 @@
 			<trans-unit id="skipLinks.mainContent" xml:space="preserve">
 				<target>Direkt zum Inhalt springen</target>
 			</trans-unit>
+			<trans-unit id="callUs.link.title" xml:space="preserve">
+				<target>Rufen Sie die Telefonnummer an</target>
+			</trans-unit>
+			<trans-unit id="emailUs.link.title" xml:space="preserve">
+				<target>Senden Sie eine Email an uns</target>
+			</trans-unit>
 
 			<!--News-->
 			<!-- news custom labels -->
