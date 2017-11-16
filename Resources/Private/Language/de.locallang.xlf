@@ -19,6 +19,12 @@
 			<trans-unit id="breadcrumb_label" xml:space="preserve">
 				<target>Sie sind hier</target>
 			</trans-unit>
+			<trans-unit id="skipLinks.mainNav" xml:space="preserve">
+				<target>Direkt zur Hauptnavigation springen</target>
+			</trans-unit>
+			<trans-unit id="skipLinks.mainContent" xml:space="preserve">
+				<target>Direkt zum Inhalt springen</target>
+			</trans-unit>
 
 			<!--News-->
 			<!-- news custom labels -->
