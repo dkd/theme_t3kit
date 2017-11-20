@@ -2008,6 +2008,9 @@
   margin-bottom: 30px;
   border-radius: 3px;
 }
+.news-cards__item > a {
+  display: inline-block;
+}
 .news-cards__media-preview {
   height: 180px;
   background-size: cover;
