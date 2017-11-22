@@ -7128,10 +7128,14 @@ div.awesomplete li[aria-selected="true"] mark {
     position: static;
 }
 
-.panel-title > a {
-    display: block;
-    padding: 10px 15px;
-    margin: -10px -15px;
+.panel-title {
+    font-weight: normal;
+
+    > a {
+        display: block;
+        padding: 10px 15px;
+        margin: -10px -15px;
+    }
 }
 
 .panel-title > a.empty {
@@ -7614,6 +7618,7 @@ div.awesomplete li[aria-selected="true"] mark {
     top: 0;
     left: 0;
     bottom: 0;
+    z-index: 2;
     width: @carousel-control-width;
     font-size: @carousel-control-font-size;
     color: @carousel-control-color;
