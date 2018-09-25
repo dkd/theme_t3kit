@@ -1,15 +1,13 @@
 // BOOTSTRAP
 //==========================================================
-@import '../../node_modules/bootstrap/js/transition.js';
-@import '../../node_modules/bootstrap/js/alert.js';
-@import '../../node_modules/bootstrap/js/button.js';
-@import '../../node_modules/bootstrap/js/carousel.js';
-@import '../../node_modules/bootstrap/js/collapse.js';
-// @import '../../node_modules/bootstrap/js/dropdown.js';
-// @import '../../node_modules/bootstrap/js/modal.js';
-// @import '../../node_modules/bootstrap/js/tooltip.js';
-// @import '../../node_modules/bootstrap/js/popover.js';
-// @import '../../node_modules/bootstrap/js/scrollspy.js';
-@import '../../node_modules/bootstrap/js/tab.js';
-// @import '../../node_modules/bootstrap/js/affix.js';
+import '../../node_modules/bootstrap/js/src/alert.js';
+import '../../node_modules/bootstrap/js/src/button.js';
+import '../../node_modules/bootstrap/js/src/carousel.js';
+import '../../node_modules/bootstrap/js/src/collapse.js';
+// import '../../node_modules/bootstrap/js/src/dropdown.js';
+// import '../../node_modules/bootstrap/js/src/modal.js';
+// import '../../node_modules/bootstrap/js/src/tooltip.js';
+// import '../../node_modules/bootstrap/js/src/popover.js';
+// import '../../node_modules/bootstrap/js/src/scrollspy.js';
+import '../../node_modules/bootstrap/js/src/tab.js';
 //==========================================================
