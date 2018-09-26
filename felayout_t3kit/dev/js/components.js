@@ -36,9 +36,3 @@ import '../../node_modules/jarallax/dist/jarallax-video.js'
 // =============================================================================
 import '../../node_modules/jquery-touchswipe/jquery.touchSwipe.min.js'
 // =============================================================================
-
-// Polyfill object-fit/object-position on <img>: IE9, IE10, IE11, Edge, Safari
-// https://github.com/bfred-it/object-fit-images
-// =============================================================================
-import '../../node_modules/object-fit-images/dist/ofi.js'
-// =============================================================================

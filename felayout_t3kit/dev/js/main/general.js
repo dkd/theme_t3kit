@@ -1,6 +1,7 @@
 // ########## general.js ###########
 /* global jQuery */
-/* global objectFitImages */
+
+import objectFitImages from 'object-fit-images';
 
 ;(function ($) {
   'use strict'
