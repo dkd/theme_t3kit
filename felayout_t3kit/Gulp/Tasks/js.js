@@ -7,6 +7,8 @@ const rollupResolve = require('rollup-plugin-node-resolve')
 const path = require('path')
 const uglifyJs = require('uglify-js')
 const fs = require('fs')
+const prettyBytes = require('pretty-bytes')
+const chalk = require('chalk')
 
 /**
  * Javascript processing
@@ -65,6 +67,13 @@ module.exports = {
           ...settings.js.uglify,
           ...uglifyJsOptions
         }
+      )
+
+      console.log(
+        helpers.timeStamp() + ' ' +
+        chalk.cyan(`[${object.bundleName}]  `) +
+        chalk.green('all files ') +
+        chalk.magenta(prettyBytes(uglified.code.length + uglified.map.length))
       )
 
       fs.writeFileSync(
