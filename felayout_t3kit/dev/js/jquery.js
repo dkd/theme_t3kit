@@ -1,4 +1,6 @@
 // jquery
 // ==========================================================
-import '../../node_modules/jquery/dist/jquery.js'
+import jQuery from 'jquery';
 // ==========================================================
+
+window.jQuery = window.$ = jQuery;
