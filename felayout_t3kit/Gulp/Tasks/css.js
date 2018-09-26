@@ -71,7 +71,7 @@ module.exports = {
           .pipe(postcss(postcssPlugins))
           .pipe(
             size({
-              title: '[main css] ',
+              title: `[${bundle.bundleName}] `,
               gzip: false
             })
           )
