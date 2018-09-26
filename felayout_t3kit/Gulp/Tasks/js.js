@@ -4,7 +4,6 @@ const rollupMultiEntry = require("rollup-plugin-multi-entry");
 const rollupBabel = require("rollup-plugin-babel");
 const rollupCommonjs = require("rollup-plugin-commonjs");
 const rollupResolve = require("rollup-plugin-node-resolve");
-const minimatch = require('minimatch');
 const path = require('path');
 const uglifyJs = require("uglify-js");
 const fs = require("fs");
@@ -28,7 +27,7 @@ module.exports = {
     );
 
     // process each bundle with rollup
-    changedBundles.forEach(async object => {
+    const promises = changedBundles.map(async object => {
       const bundle = await rollup.rollup({
         input: object.inputPaths,
         plugins: [
@@ -52,16 +51,19 @@ module.exports = {
         sourceMap: helpers.isDevEnvironment()
       });
 
-      const sourceMapOptions = (helpers.isDevEnvironment()) ? {} : {
-        filename: object.bundleName,
-        url: `${object.bundleName}.map`,
-        content: map
+      const uglifyJsOptions = {
+        sourceMap: (helpers.isDevEnvironment()) ? {} : {
+          filename: object.bundleName,
+          url: `${object.bundleName}.map`,
+          content: map
+        }
       };
 
       const uglified = uglifyJs.minify(
         code,
         {
-          sourceMap: sourceMapOptions
+          ...settings.js.uglify,
+          ...uglifyJsOptions
         }
       );
 
@@ -74,5 +76,6 @@ module.exports = {
         uglified.map
       );
     });
+    return Promise.all(promises);
   }
 };
