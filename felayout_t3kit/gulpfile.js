@@ -17,9 +17,8 @@ gulp.task('js', function () {
 /**
  * Build css
  */
-gulp.task('css', function (done) {
-  cssTask.process(browserSync, settings);
-  done()
+gulp.task('css', function () {
+  return cssTask.process(browserSync, settings);
 });
 
 /**

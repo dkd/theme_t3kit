@@ -10,7 +10,7 @@ const autoprefixer = require('autoprefixer');
 const cssnano = require('cssnano');
 const helpers = require('../helpers');
 const size = require('gulp-size');
-const eventStream = require('event-stream');
+const merge = require('merge-stream');
 
 /**
  * Main function to process and bundle css
@@ -33,11 +33,10 @@ module.exports = {
       autoprefixer(settings.css.postCss.autoprefixer),
       cssnano(settings.css.postCss.cssnano)
     ];
-    helpers.logInfo('Writing output file(s) to: ' + settings.css.outputPath);
 
     // merge all bundle streams together and process them
-    return eventStream.merge(
-      bundles.map(function (bundle) {
+    return merge(
+      ...bundles.map(function (bundle) {
           let stream = gulp
             .src(bundle.inputPaths)
             .pipe(sourcemaps.init())
