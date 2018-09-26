@@ -4,7 +4,12 @@ const gulp = require('gulp');
 const browserSync = require('browser-sync').create();
 const cssTask = require('./Gulp/Tasks/css');
 const jsTask = require('./Gulp/Tasks/js');
+const assetsTask = require('./Gulp/Tasks/assets');
 const watchTask = require('./Gulp/Tasks/watch');
+
+gulp.task('assets', function() {
+  return assetsTask.process(browserSync, settings);
+});
 
 /**
  * Build javascript
@@ -26,7 +31,7 @@ gulp.task('css', function () {
  * It is used during deployment.
  * Runs css and js task in parallel
  */
-gulp.task('build', gulp.parallel('css', 'js'));
+gulp.task('build', gulp.parallel('assets', 'css', 'js'));
 
 /**
  * The watch task must be used during local development

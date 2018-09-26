@@ -1,6 +1,42 @@
 let keepLicense = require('uglify-save-license');
 
 module.exports = {
+  assets: {
+    copy: [
+      {
+        inputPaths: [
+          './node_modules/flag-icon-css/flags/4x3/be.svg',
+          './node_modules/flag-icon-css/flags/4x3/dk.svg',
+          './node_modules/flag-icon-css/flags/4x3/ee.svg',
+          './node_modules/flag-icon-css/flags/4x3/fr.svg',
+          './node_modules/flag-icon-css/flags/4x3/fi.svg',
+          './node_modules/flag-icon-css/flags/4x3/de.svg',
+          './node_modules/flag-icon-css/flags/4x3/it.svg',
+          './node_modules/flag-icon-css/flags/4x3/nl.svg',
+          './node_modules/flag-icon-css/flags/4x3/nz.svg',
+          './node_modules/flag-icon-css/flags/4x3/no.svg',
+          './node_modules/flag-icon-css/flags/4x3/pl.svg',
+          './node_modules/flag-icon-css/flags/4x3/pt.svg',
+          './node_modules/flag-icon-css/flags/4x3/es.svg',
+          './node_modules/flag-icon-css/flags/4x3/se.svg',
+          './node_modules/flag-icon-css/flags/4x3/ch.svg',
+          './node_modules/flag-icon-css/flags/4x3/gb.svg',
+          './node_modules/flag-icon-css/flags/4x3/ua.svg',
+          './node_modules/flag-icon-css/flags/4x3/ro.svg',
+          './node_modules/flag-icon-css/flags/4x3/us.svg'
+        ],
+        outputPath: '../Resources/Public/css/flags/4x3'
+      }
+    ],
+    compress: [
+      {
+        inputPaths: [
+          './dev/images/*'
+        ],
+        outputPath: '../Resources/Public/css/images'
+      }
+    ]
+  },
   css: {
     /**
      * You can define multiple bundles here.
