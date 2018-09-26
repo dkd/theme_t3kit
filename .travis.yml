@@ -37,7 +37,6 @@ before_script:
   # Restore composer.json
   - git checkout composer.json
   - export TYPO3_PATH_WEB=$PWD/.Build/Web
-  - npm install -g grunt-cli
 
 script:
 
@@ -48,5 +47,5 @@ script:
 
   - >
     echo;
-    echo "Running grunt lessCompile";
-    grunt compileLess
+    echo "Running npm run build";
+    npm run build
