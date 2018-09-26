@@ -12,6 +12,7 @@
     "bootstrap": "4.0.0",
     "compass-sass-mixins": "^0.12.7",
     "flag-icon-css": "3.0.0",
+    "gulp-add-src": "^1.0.0",
     "gulp-better-rollup": "^3.3.0",
     "gulp-rollup": "^2.16.2",
     "jarallax": "1.10.3",

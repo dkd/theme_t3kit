@@ -69,13 +69,6 @@
     font-family: 'object-fit: #{$fit}';
 }
 
-@mixin transform($string) {
-    -webkit-transform: $string;
-    -moz-transform: $string;
-    -ms-transform: $string;
-    -o-transform: $string;
-}
-
 // =====================================================================
 // Add link arrow with circle on pseudo elements before or after =======
 // =====================================================================

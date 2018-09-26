@@ -11,16 +11,16 @@ const watchTask = require('./Gulp/Tasks/watch');
  * Requires task modernizr to be completed first.
  */
 gulp.task('js', function (done) {
-    jsTask.process(browserSync, settings);
-    done();
-  }
-);
+  jsTask.process(browserSync, settings);
+  done();
+});
 
 /**
  * Build css
  */
-gulp.task('css', function () {
-  return cssTask.process(browserSync, settings);
+gulp.task('css', function (done) {
+  cssTask.process(browserSync, settings);
+  done()
 });
 
 /**

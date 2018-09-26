@@ -50,15 +50,9 @@ $flag-icon-square-path: '/1x1';
 @import "../../node_modules/swiper/dist/css/swiper";
 //==============================================================================
 
-// Ultra lightweight, usable, beautiful autocomplete with zero dependencies.
-// http://leaverou.github.io/awesomplete/
-//==============================================================================
-@import "../../node_modules/awesomplete/awesomplete";
-//==============================================================================
-
 // Simplelightbox
 // Touch-friendly image lightbox for mobile and desktop with jQuery
 // https://github.com/andreknieriem/simplelightbox
 //==============================================================================
-@import "../../node_modules/simplelightbox/dist/simplelightbox";
+@import "../../node_modules/simplelightbox/dist/simplelightbox.scss";
 //==============================================================================

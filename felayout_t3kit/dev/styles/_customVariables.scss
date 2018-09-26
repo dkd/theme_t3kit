@@ -37,13 +37,13 @@ $logo-width:                    120px;
 
 // Navigation
 $nav-height:                    60px;
+$nav-background-color:          darken($main-text-color, 32%);
 $nav-link-color:                #fff;
 $nav-link-hover-color:          $nav-link-color;
 $nav-link-active-color:         $main-color;
 $nav-link-active-hover-color:   $nav-link-active-color;
 $nav-link-hover-background:     tint($nav-background-color, 10%);
 $nav-link-arrow-color:          rgba($nav-link-color, 50%);
-$nav-background-color:          darken($main-text-color, 32%);
 $nav-search-btn-color:          rgba($main-color, 50%);
 $mobile-nav-toggle-btn:         left;
 

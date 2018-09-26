@@ -22,48 +22,13 @@ module.exports = {
    * @param changedFile optional. Checks the settings and compiles only affected bundles.
    */
   process: function (browserSync, settings, changedFile) {
-    let bundles = null;
-    switch (typeof changedFile) {
-      case 'string':
-        const changedFilePath = path.resolve('./', changedFile);
+    const changedBundles = helpers.selectRelevantBundles(
+      settings.js.bundles,
+      changedFile
+    );
 
-        // iterate the settings and check which bundle is matching the changed file
-        bundles = settings.js.bundles.filter(bundle => {
-          let match = bundle.inputPaths.find(bundleFile => {
-            return minimatch(
-              changedFilePath,
-              path.resolve('./', bundleFile)
-            );
-          });
-
-          if (match === undefined) {
-            return false;
-          }
-
-          helpers.logInfo(
-            'rebuild ' +
-            bundle.bundleName +
-            ' due to change in ' +
-            changedFile
-          );
-          return true;
-        });
-
-        if (bundles.length === 0) {
-          helpers.logError(
-            `Reload error: Could not find matching bundle for changed file '${changedFile}'.`
-          );
-        }
-
-        break;
-      case 'object':
-        bundles = changedFile;
-        break;
-      default:
-        bundles = settings.js.bundles;
-    }
     // process each bundle with rollup
-    bundles.forEach(async object => {
+    changedBundles.forEach(async object => {
       const bundle = await rollup.rollup({
         input: object.inputPaths,
         plugins: [
