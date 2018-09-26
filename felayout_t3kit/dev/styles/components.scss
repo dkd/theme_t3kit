@@ -44,15 +44,3 @@ $flag-icon-square-path: '/1x1';
 @include flag-icon(us);
 @include flag-icon(ro);
 //==========================================================
-
-// Swiper
-//==============================================================================
-@import "../../node_modules/swiper/dist/css/swiper";
-//==============================================================================
-
-// Simplelightbox
-// Touch-friendly image lightbox for mobile and desktop with jQuery
-// https://github.com/andreknieriem/simplelightbox
-//==============================================================================
-@import "../../node_modules/simplelightbox/dist/simplelightbox.scss";
-//==============================================================================

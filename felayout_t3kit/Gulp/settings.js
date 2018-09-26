@@ -68,7 +68,9 @@ module.exports = {
           './dev/styles/components.scss'
         ],
         additionalCss: [
-          './node_modules/awesomplete/awesomplete.css'
+          './node_modules/awesomplete/awesomplete.css',
+          './node_modules/swiper/dist/css/swiper.css',
+          './node_modules/simplelightbox/dist/simplelightbox.css'
         ],
         watchPaths: [
           './dev/styles/components.scss'
