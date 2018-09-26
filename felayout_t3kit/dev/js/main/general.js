@@ -10,7 +10,7 @@
     // Image Lightbox
     // initialize simpleLightbox when document ready
     // https://github.com/andreknieriem/simplelightbox
-    $("div[class*='lightbox__wrp-']").each(function () {
+    $('div[class*=\'lightbox__wrp-\']').each(function () {
       $(this).find('.lightbox').simpleLightbox({
         captionType: 'data',
         captionsData: 'caption',

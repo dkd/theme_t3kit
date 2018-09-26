@@ -1,5 +1,5 @@
-const helpers = require('./helpers');
-const keepLicense = require('uglify-save-license');
+const helpers = require('./helpers')
+const keepLicense = require('uglify-save-license')
 
 module.exports = {
   assets: {
@@ -173,7 +173,7 @@ module.exports = {
     autoReload: true,
     // https://babeljs.io/docs/en/configuration
     babel: {
-      presets: ["@babel/preset-env"]
+      presets: ['@babel/preset-env']
     }
   },
   browserSync: {
@@ -202,4 +202,4 @@ module.exports = {
       }
     }
   }
-};
+}

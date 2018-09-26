@@ -63,10 +63,10 @@
 @include media-breakpoint-up(md) {
     .slider-container__button-next,
     .slider-container__button-prev {
-        display: block;
-        background: none;
         @include icons();
 
+        display: block;
+        background: none;
         color: $main-color;
         -moz-osx-font-smoothing: grayscale;
         height: auto;

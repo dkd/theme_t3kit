@@ -16,7 +16,7 @@ var objectFitImages = (function () {
 
   var OFI = 'bfred-it:object-fit-images'
   var propRegex = /(object-fit|object-position)\s*:\s*([-\w\s%]+)/g
-  var testImg = typeof Image === 'undefined' ? {style: {'object-position': 1}} : new Image()
+  var testImg = typeof Image === 'undefined' ? { style: { 'object-position': 1 } } : new Image()
   var supportsObjectFit = 'object-fit' in testImg.style
   var supportsObjectPosition = 'object-position' in testImg.style
   var supportsOFI = 'background-size' in testImg.style
@@ -35,13 +35,13 @@ var objectFitImages = (function () {
       // parse srcset with picturefill where currentSrc isn't available
       if (!el[pf.ns] || !el[pf.ns].evaled) {
         // force synchronous srcset parsing
-        pf.fillImg(el, {reselect: true})
+        pf.fillImg(el, { reselect: true })
       }
 
       if (!el[pf.ns].curSrc) {
         // force picturefill to parse srcset
         el[pf.ns].supported = false
-        pf.fillImg(el, {reselect: true})
+        pf.fillImg(el, { reselect: true })
       }
 
       // retrieve parsed currentSrc, if any
@@ -187,6 +187,7 @@ var objectFitImages = (function () {
     function getOfiImageMaybe (el, name) {
       return el[OFI] && el[OFI].img && (name === 'src' || name === 'srcset') ? el[OFI].img : el
     }
+
     if (!supportsObjectPosition) {
       HTMLImageElement.prototype.getAttribute = function (name) {
         return nativeGetAttribute.call(getOfiImageMaybe(this, name), name)
@@ -235,7 +236,7 @@ var objectFitImages = (function () {
       imgs = 'img' // reset to a generic selector for watchMQ
     }
 
-      // if requested, watch media queries for object-fit change
+    // if requested, watch media queries for object-fit change
     if (opts.watchMQ) {
       window.addEventListener('resize', fix.bind(null, imgs, {
         skipTest: opts.skipTest

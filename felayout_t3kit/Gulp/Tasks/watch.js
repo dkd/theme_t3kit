@@ -1,16 +1,8 @@
-const gulp = require('gulp');
-const assetsTask = require('./assets');
-const cssTask = require('./css');
-const jsTask = require('./js');
-const helpers = require('../helpers');
-
-/**
- * Merges the arrays into one.
- * @param acc
- * @param next
- * @returns {[]}
- */
-const flatReducer = (acc, next) => [...acc, ...next];
+const gulp = require('gulp')
+const assetsTask = require('./assets')
+const cssTask = require('./css')
+const jsTask = require('./js')
+const helpers = require('../helpers')
 
 /**
  * Watch tasks.
@@ -22,55 +14,38 @@ const flatReducer = (acc, next) => [...acc, ...next];
  */
 module.exports = {
   start: function (browserSync, settings) {
-    helpers.logInfo('Starting watchers...');
+    helpers.logInfo('Starting watchers...')
 
-    browserSync.init(settings.browserSync);
+    browserSync.init(settings.browserSync)
 
     // Watch assets.
-    const assetWatchPathsCopy = settings.assets.copy
-      .map(bundle => {
-        return bundle.inputPaths;
-      })
-      .reduce(flatReducer, []);
-    const assetWatchPathsCompress = settings.assets.compress
-      .map(bundle => {
-        return bundle.inputPaths;
-      })
-      .reduce(flatReducer, []);
-    const assetWatcher = gulp.watch([
-      ...assetWatchPathsCopy,
-      ...assetWatchPathsCompress
-    ]);
+    const assetWatcher = gulp.watch(
+      helpers.watchedAssets(settings.assets)
+    )
     assetWatcher.on('change', function (filePath) {
-      assetsTask.process(browserSync, settings, filePath);
+      assetsTask.process(browserSync, settings, filePath)
       settings.assets.autoReload
         ? browserSync.reload()
-        : helpers.logInfo(filePath + ' changed.');
-    });
+        : helpers.logInfo(filePath + ' changed.')
+    })
 
     // Watch css files.
-    const cssWatchPaths = settings.css.bundles
-      .map(bundle => {
-        return bundle.watchPaths;
-      })
-      .reduce(flatReducer, []);
-    const cssWatcher = gulp.watch(cssWatchPaths);
+    const cssWatcher = gulp.watch(
+      helpers.watchedCss(settings.css)
+    )
     cssWatcher.on('change', function (filePath) {
-      cssTask.process(browserSync, settings, filePath);
-    });
+      cssTask.process(browserSync, settings, filePath)
+    })
 
     // Watch JS files.
-    const jsWatchPaths = settings.js.bundles
-      .map(bundle => {
-        return bundle.watchPaths;
-      })
-      .reduce(flatReducer, []);
-    const jsWatcher = gulp.watch(jsWatchPaths);
+    const jsWatcher = gulp.watch(
+      helpers.watchedJs(settings.js)
+    )
     jsWatcher.on('change', function (filePath) {
-      jsTask.process(browserSync, settings, filePath);
+      jsTask.process(browserSync, settings, filePath)
       settings.js.autoReload
         ? browserSync.reload()
-        : helpers.logInfo(filePath + ' changed.');
-    });
+        : helpers.logInfo(filePath + ' changed.')
+    })
   }
-};
+}

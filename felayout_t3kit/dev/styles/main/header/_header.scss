@@ -24,12 +24,12 @@
 }
 
 .header-top {
+    @include clearfix();
+
     background: $header-top-bg-color;
     position: fixed;
     z-index: 5001;
     margin: 0 auto;
-    @include clearfix();
-
     font-size: 14px;
     width: 100%;
     text-transform: uppercase;
@@ -294,8 +294,9 @@
 }
 
 .header-middle {
-    margin: 0 auto;
     @include clearfix();
+
+    margin: 0 auto;
     // padding: 10px 0;
     height: 100%;
 }
@@ -726,11 +727,11 @@
     }
 
     .main-navigation__items-wrp {
+        @include clearfix();
+
         max-width: $container-md;
         margin: 0 auto;
         display: block;
-        @include clearfix();
-
         position: relative;
     }
 

@@ -167,6 +167,7 @@
 }
 
 .awesomplete input {
-    color: $search-text-color;
     @include input-placeholder-color($search-text-color);
+
+    color: $search-text-color;
 }

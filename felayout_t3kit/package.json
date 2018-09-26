@@ -17,6 +17,7 @@
     "gulp-better-rollup": "^3.3.0",
     "gulp-imagemin": "^4.1.0",
     "gulp-rollup": "^2.16.2",
+    "gulp-standard": "^12.0.0",
     "jarallax": "1.10.3",
     "jquery": "3.3.1",
     "jquery-touchswipe": "1.6.18",
@@ -29,6 +30,7 @@
     "rollup-plugin-uglify": "^6.0.0",
     "simplelightbox": "1.12.1",
     "smtlk-dotdotdot": "1.8.3",
+    "stylelint": "^9.5.0",
     "swiper": "3.4.2",
     "uglify-js": "^3.4.9"
   },
@@ -54,8 +56,8 @@
     "gulp-sourcemaps": "^2.6.4",
     "gulp-stylelint": "^7.0.0",
     "gulp-uglify": "^3.0.0",
-    "minimatch": "^3.0.4",
     "merge-stream": "^1.0.1",
+    "minimatch": "^3.0.4",
     "uglify-save-license": "^0.4.1"
   },
   "standard.options": {

@@ -16,31 +16,36 @@
         overflow: hidden;
         display: none;
         position: relative;
-        @include transition(.6s ease-in-out left);
+
+        @include transition(0.6s ease-in-out left);
 
         // WebKit CSS3 transforms for supported devices
         @media all and (transform-3d), (-webkit-transform-3d) {
-            transition: transform 0.6s ease-in-out;
             @include backface-visibility('hidden');
             @include perspective(1000px);
 
+            transition: transform 0.6s ease-in-out;
+
             &.next,
             &.active.right {
-                left: 0;
                 @include translate3d(100%, 0, 0);
+
+                left: 0;
             }
 
             &.prev,
             &.active.left {
-                left: 0;
                 @include translate3d(-100%, 0, 0);
+
+                left: 0;
             }
 
             &.next.left,
             &.prev.right,
             &.active {
-                left: 0;
                 @include translate3d(0, 0, 0);
+
+                left: 0;
             }
         }
     }
@@ -48,12 +53,13 @@
     // Show only center of image, it is only 300px height
     > .item img,
     > .item > a img {
+        @include translate(-50%, 0);
+
         height: 100%;
         max-width: none;
         left: 50%;
         position: relative;
         width: auto;
-        @include translate(-50%, 0);
     }
 
     > .active,
@@ -131,6 +137,8 @@
 }
 
 .carousel-control {
+    @include opacity($carousel-control-opacity);
+
     position: absolute;
     top: 0;
     left: 0;
@@ -141,7 +149,6 @@
     color: $carousel-control-color;
     text-align: center;
     text-shadow: $carousel-text-shadow;
-    @include opacity($carousel-control-opacity);
 
     &.right {
         left: auto;
@@ -150,9 +157,10 @@
 
     &:hover,
     &:focus {
+        @include opacity(0.9);
+
         color: $carousel-control-color;
         text-decoration: none;
-        @include opacity(.9);
     }
 
     > .icons {

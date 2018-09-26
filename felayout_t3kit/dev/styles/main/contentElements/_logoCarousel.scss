@@ -46,9 +46,9 @@
 
 .logo-carousel__btn-next,
 .logo-carousel__btn-prev {
-    background: none;
     @include icons();
 
+    background: none;
     color: $logo-carousel-control-color;
     -moz-osx-font-smoothing: grayscale;
     height: auto;

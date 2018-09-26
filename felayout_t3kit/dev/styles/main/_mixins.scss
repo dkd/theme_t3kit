@@ -88,7 +88,7 @@
         }
     }
 
-   @if ($position = right) {
+    @if ($position = right) {
         &:after {
             content: "\e91c";
             margin-left: 3px;

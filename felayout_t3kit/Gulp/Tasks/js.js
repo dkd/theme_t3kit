@@ -1,12 +1,12 @@
-const helpers = require('../helpers');
-const rollup = require("rollup");
-const rollupMultiEntry = require("rollup-plugin-multi-entry");
-const rollupBabel = require("rollup-plugin-babel");
-const rollupCommonjs = require("rollup-plugin-commonjs");
-const rollupResolve = require("rollup-plugin-node-resolve");
-const path = require('path');
-const uglifyJs = require("uglify-js");
-const fs = require("fs");
+const helpers = require('../helpers')
+const rollup = require('rollup')
+const rollupMultiEntry = require('rollup-plugin-multi-entry')
+const rollupBabel = require('rollup-plugin-babel')
+const rollupCommonjs = require('rollup-plugin-commonjs')
+const rollupResolve = require('rollup-plugin-node-resolve')
+const path = require('path')
+const uglifyJs = require('uglify-js')
+const fs = require('fs')
 
 /**
  * Javascript processing
@@ -24,14 +24,14 @@ module.exports = {
     const changedBundles = helpers.selectRelevantBundles(
       settings.js.bundles,
       changedFile
-    );
+    )
 
     // process each bundle with rollup
     const promises = changedBundles.map(async object => {
       const bundle = await rollup.rollup({
         input: object.inputPaths,
         plugins: [
-          rollupMultiEntry({exports: false}),
+          rollupMultiEntry({ exports: false }),
           // convert non-es6 libraries so that rollup can bundle them
           rollupCommonjs({
             include: /node_modules/
@@ -42,14 +42,14 @@ module.exports = {
             browser: true
           }),
           // transpile es6
-          rollupBabel(settings.js.babel),
+          rollupBabel(settings.js.babel)
         ]
-      });
+      })
 
-      const {code, map} = await bundle.generate({
+      const { code, map } = await bundle.generate({
         format: 'iife',
         sourceMap: helpers.isDevEnvironment()
-      });
+      })
 
       const uglifyJsOptions = {
         sourceMap: (helpers.isDevEnvironment()) ? {} : {
@@ -57,7 +57,7 @@ module.exports = {
           url: `${object.bundleName}.map`,
           content: map
         }
-      };
+      }
 
       const uglified = uglifyJs.minify(
         code,
@@ -65,17 +65,17 @@ module.exports = {
           ...settings.js.uglify,
           ...uglifyJsOptions
         }
-      );
+      )
 
       fs.writeFileSync(
         path.join(object.outputPath, object.bundleName),
         uglified.code
-      );
+      )
       fs.writeFileSync(
         path.join(object.outputPath, `${object.bundleName}.map`),
         uglified.map
-      );
-    });
-    return Promise.all(promises);
+      )
+    })
+    return Promise.all(promises)
   }
-};
+}

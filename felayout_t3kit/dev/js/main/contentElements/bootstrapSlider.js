@@ -57,13 +57,14 @@
             this.next()
             updateFocusOnQuickLinks()
             break
-          default: return
+          default:
+            return
         }
 
         e.preventDefault()
       }
 
-        // Set aria-selected and tab index to true only for active item
+      // Set aria-selected and tab index to true only for active item
       function setAriaOnQuickLinks () {
         $quickLinks.each(function () {
           var link = $(this)

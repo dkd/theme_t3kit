@@ -101,10 +101,10 @@
 @include media-breakpoint-up(md) {
     .news-carousel__btn-next,
     .news-carousel__btn-prev {
-        display: block;
-        background: none;
         @include icons();
 
+        display: block;
+        background: none;
         color: $main-color;
         -moz-osx-font-smoothing: grayscale;
         height: 100%;
@@ -115,11 +115,11 @@
 }
 
 .news-carousel__btn-next {
-    right: -50px,
+    right: -50px;
 }
 
 .news-carousel__btn-prev {
-    left: -50px,
+    left: -50px;
 }
 
 @include media-breakpoint-up(md) {
