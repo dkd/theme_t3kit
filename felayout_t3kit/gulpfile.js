@@ -7,20 +7,23 @@ const jsTask = require('./Gulp/Tasks/js');
 const assetsTask = require('./Gulp/Tasks/assets');
 const watchTask = require('./Gulp/Tasks/watch');
 
+/**
+ * Build assets.
+ * Copies files and compresses images.
+ */
 gulp.task('assets', function() {
   return assetsTask.process(browserSync, settings);
 });
 
 /**
- * Build javascript
- * Requires task modernizr to be completed first.
+ * Build javascript.
  */
 gulp.task('js', function () {
   return jsTask.process(browserSync, settings);
 });
 
 /**
- * Build css
+ * Build css from sass and external css files.
  */
 gulp.task('css', function () {
   return cssTask.process(browserSync, settings);
@@ -28,13 +31,12 @@ gulp.task('css', function () {
 
 /**
  * This is the main build task.
- * It is used during deployment.
- * Runs css and js task in parallel
+ * Runs assets, css and js tasks in parallel.
  */
 gulp.task('build', gulp.parallel('assets', 'css', 'js'));
 
 /**
- * The watch task must be used during local development
+ * The watch task should be used during local development.
  */
 gulp.task(
   'watch',
