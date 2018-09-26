@@ -30,7 +30,6 @@
     "cssnano": "^3.10.0",
     "event-stream": "^3.3.4",
     "gulp": "^4.0.0",
-    "gulp-add-src": "^1.0.0",
     "gulp-babel": "^8.0.0",
     "gulp-better-rollup": "^3.3.0",
     "gulp-concat": "^2.6.1",

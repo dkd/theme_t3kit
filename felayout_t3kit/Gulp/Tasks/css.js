@@ -1,6 +1,5 @@
 const gulp = require('gulp')
 const gulpIf = require('gulp-if')
-const addSrc = require('gulp-add-src')
 const concat = require('gulp-concat')
 const gulpResolveUrl = require('gulp-resolve-url')
 const sass = require('gulp-sass')
@@ -37,7 +36,7 @@ module.exports = {
     // merge all bundle streams together and process them
     return merge(
       ...bundles.map(function (bundle) {
-        let stream = gulp
+        const sassStream = gulp
           .src(bundle.inputPaths)
           .pipe(sourcemaps.init())
           .pipe(
@@ -63,13 +62,12 @@ module.exports = {
           .pipe(sourcemaps.identityMap())
 
         // add optional css files for bundling
-        if (Array.isArray(bundle.additionalCss)) {
-          bundle.additionalCss.forEach(glob => {
-            stream = stream.pipe(addSrc(glob))
-          })
-        }
+        const cssStreams = (Array.isArray(bundle.additionalCss))
+          ? bundle.additionalCss.map(glob => gulp.src(glob))
+          : []
 
-        return stream.pipe(concat(bundle.bundleName))
+        return merge(sassStream, ...cssStreams)
+          .pipe(concat(bundle.bundleName))
           .pipe(postcss(postcssPlugins))
           .pipe(
             size({
