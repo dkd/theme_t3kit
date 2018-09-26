@@ -5,7 +5,8 @@
   "license": "MIT",
   "repository": "t3kit/theme_t3kit",
   "scripts": {
-    "build": "gulp build"
+    "build": "gulp build",
+    "watch": "gulp watch"
   },
   "dependencies": {
     "awesomplete": "1.1.2",

@@ -38,9 +38,8 @@ gulp.task('build', gulp.parallel('assets', 'css', 'js'));
  */
 gulp.task(
   'watch',
-  gulp.series('build', function (done) {
-    watchTask.start(browserSync, settings);
-    done();
+  gulp.series('build', function () {
+    return watchTask.start(browserSync, settings);
   })
 );
 
@@ -49,12 +48,11 @@ gulp.task(
  */
 gulp.task(
   'default',
-  gulp.series('build', function (done) {
+  gulp.series('build', function () {
     helpers.logInfo('Starting default task.');
     helpers.logInfo(
       "See other available tasks by running 'npx gulp --tasks'"
     );
-    watchTask.start(browserSync, settings);
-    done();
+    return watchTask.start(browserSync, settings);
   })
 );

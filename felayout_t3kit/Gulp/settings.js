@@ -1,4 +1,5 @@
-let keepLicense = require('uglify-save-license');
+const helpers = require('./helpers');
+const keepLicense = require('uglify-save-license');
 
 module.exports = {
   assets: {
@@ -35,7 +36,9 @@ module.exports = {
         ],
         outputPath: '../Resources/Public/css/images'
       }
-    ]
+    ],
+    // Reload the browser if one of the assets got changed.
+    autoReload: true
   },
   css: {
     /**
@@ -123,6 +126,9 @@ module.exports = {
         // `inputPaths` Array of paths (globbing is possible) where to look for JS files to concat/minify
         inputPaths: [
           './dev/js/bootstrap.js'
+        ],
+        watchPaths: [
+          './dev/js/bootstrap.js'
         ]
       },
       {
@@ -131,6 +137,9 @@ module.exports = {
         outputPath: '../Resources/Public/css',
         // `inputPaths` Array of paths (globbing is possible) where to look for JS files to concat/minify
         inputPaths: [
+          './dev/js/components.js'
+        ],
+        watchPaths: [
           './dev/js/components.js'
         ]
       },
@@ -141,6 +150,9 @@ module.exports = {
         // `inputPaths` Array of paths (globbing is possible) where to look for JS files to concat/minify
         inputPaths: [
           './dev/js/jquery.js'
+        ],
+        watchPaths: [
+          './dev/js/jquery.js'
         ]
       },
       {
@@ -150,22 +162,44 @@ module.exports = {
         // `inputPaths` Array of paths (globbing is possible) where to look for JS files to concat/minify
         inputPaths: [
           './dev/js/main.js'
+        ],
+        watchPaths: [
+          './dev/js/main.js',
+          './dev/js/main/**/*.js'
         ]
       }
     ],
-    // See https://browsersync.io/docs/options#option-serveStatic
-    serveStatic: [
-      {
-        route:
-          '/typo3conf/ext/dkd_customer/Resources/Public/Javascript',
-        dir: './Resources/Public/Javascript'
-      }
-    ],
-    // reload the browser if one of the bundles got changes
+    // Reload the browser if one of the bundles got changed.
     autoReload: true,
     // https://babeljs.io/docs/en/configuration
     babel: {
       presets: ["@babel/preset-env"]
+    }
+  },
+  browserSync: {
+    proxy: 'localhost:8888',
+    serveStatic: ['../Resources/Public/css'],
+    watchTask: true,
+    open: false,
+    port: 9001,
+    ghostMode: false,
+    snippetOptions: {
+      rule: {
+        match: /<\/head>/i,
+        fn: function (snippet, match) {
+          return `
+                ${helpers.cssHeader('bootstrap.css')}
+                ${helpers.cssHeader('components.css')}
+                ${helpers.cssHeader('main.css')}
+                ${helpers.jsHeader('jquery.js')}
+                ${helpers.jsHeader('bootstrap.js')}
+                ${helpers.jsHeader('components.js')}
+                ${helpers.jsHeader('main.js')}
+                ${snippet}
+                ${match}
+                `
+        }
+      }
     }
   }
 };

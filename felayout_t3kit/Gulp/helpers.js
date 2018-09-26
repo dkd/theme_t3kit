@@ -75,7 +75,7 @@ module.exports = {
 
         // iterate the settings and check which bundle is matching the changed file
         bundles = watchedBundles.filter(bundle => {
-          let match = bundle.inputPaths.find(bundleFile => {
+          const match = bundle.watchPaths.find(bundleFile => {
             return minimatch(
               changedFilePath,
               path.resolve('./', bundleFile)
@@ -86,7 +86,7 @@ module.exports = {
             return false;
           }
 
-          logInfo(
+          this.logInfo(
             'rebuild ' +
             bundle.bundleName +
             ' due to change in ' +
@@ -96,7 +96,7 @@ module.exports = {
         });
 
         if (bundles.length === 0) {
-          logError(
+          this.logError(
             `Reload error: Could not find matching bundle for changed file '${changedFile}'.`
           );
         }
@@ -109,5 +109,7 @@ module.exports = {
         bundles = watchedBundles;
     }
     return bundles;
-  }
+  },
+  cssHeader: (file) => `<link rel="stylesheet" type="text/css" href="/${file}"/>`,
+  jsHeader: (file) => `<script src="/${file}"></script>`
 };
