@@ -50,13 +50,15 @@ themes.configuration.features.solrBaseCoreName = t3kit
 
 
 # customsubcategory=layout= FElayout
-# cat=theme,expert/layout/; type=options[Less=less,Css=css,Development=dev]; label=FElayout mode (css/less/dev)
-themes.configuration.feLayoutMode = less
-# cat=theme,expert/layout/; type=string; label=Path to CSS/LESS files
+# cat=theme,expert/layout/; type=options[Scss=scss,Css=css,Development=dev]; label=FElayout mode (css/scss/dev)
+themes.configuration.feLayoutMode = scss
+# cat=theme,expert/layout/; type=string; label=Path to SCSS files
+themes.configuration.feLayoutScssPath = EXT:theme_t3kit/felayout_t3kit/dev/styles
+# cat=theme,expert/layout/; type=string; label=Path to CSS files
 themes.configuration.feLayoutPath = EXT:theme_t3kit/Resources/Public
 
 # customsubcategory=customcss= Custom CSS
-# cat=theme,expert/customcss; type=string; label= Custom CSS/LESS path
+# cat=theme,expert/customcss; type=string; label= Custom CSS/SCSS path
 themes.configuration.customPath = fileadmin/custom
 
 # customsubcategory=iconFonts= Icon Fonts

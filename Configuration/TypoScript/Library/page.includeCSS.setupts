@@ -1,12 +1,12 @@
-[globalVar = LIT:less = {$themes.configuration.feLayoutMode}]
+[globalVar = LIT:scss = {$themes.configuration.feLayoutMode}]
     page {
         includeCSS {
-            bootstrap = {$themes.configuration.feLayoutPath}/less/bootstrap.less
+            bootstrap = {$themes.configuration.feLayoutScssPath}/bootstrap.scss
             bootstrap {
                 # excludeFromConcatenation =
                 # disableCompression =
             }
-            components = {$themes.configuration.feLayoutPath}/less/components.css
+            components = {$themes.configuration.feLayoutScssPath}/components.css
             components {
                 #excludeFromConcatenation =
                 #disableCompression =
@@ -16,12 +16,12 @@
                 #excludeFromConcatenation =
                 #disableCompression =
             }
-            maincss = {$themes.configuration.feLayoutPath}/less/main.less
+            maincss = {$themes.configuration.feLayoutScssPath}/main.scss
             maincss {
                 #excludeFromConcatenation =
                 #disableCompression =
             }
-            customLess = {$themes.configuration.customPath}/custom.less
+            customLess = {$themes.configuration.customPath}/custom.scss
             customLess {
                 #excludeFromConcatenation =
                 #disableCompression =
