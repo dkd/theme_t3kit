@@ -3,19 +3,27 @@
     margin: 40px 0 20px;
 }
 
-@include media-breakpoint-up(md) {
-    @media (max-width: $screen-md--custom) {
-        .news-carousel {
-            padding: 0 30px;
-        }
+@include media-breakpoint-between(md, lg, (
+    xs: 0,
+    sm: 576px,
+    md: 768px,
+    lg: $screen-md--custom,
+    xl: 1200px
+)) {
+    .news-carousel {
+        padding: 0 30px;
     }
 }
 
-@include media-breakpoint-up(lg) {
-    @media (max-width: $screen-lg--custom) {
-        .news-carousel {
-            padding: 0 30px;
-        }
+@include media-breakpoint-between(md, lg, (
+    xs: 0,
+    sm: 576px,
+    md: 768px,
+    lg: 992px,
+    xl: $screen-lg--custom
+)) {
+    .news-carousel {
+        padding: 0 30px;
     }
 }
 
@@ -122,27 +130,35 @@
     left: -50px;
 }
 
-@include media-breakpoint-up(md) {
-    @media (max-width: $screen-md--custom) {
-        .news-carousel__btn-next {
-            right: -12px;
-        }
+@include media-breakpoint-between(md, lg, (
+    xs: 0,
+    sm: 576px,
+    md: 768px,
+    lg: $screen-md--custom,
+    xl: 1200px
+)) {
+    .news-carousel__btn-next {
+        right: -12px;
+    }
 
-        .news-carousel__btn-prev {
-            left: -12px;
-        }
+    .news-carousel__btn-prev {
+        left: -12px;
     }
 }
 
-@include media-breakpoint-up(lg) {
-    @media (max-width: $screen-lg--custom) {
-        .news-carousel__btn-next {
-            right: -16px;
-        }
+@include media-breakpoint-between(md, lg, (
+    xs: 0,
+    sm: 576px,
+    md: 768px,
+    lg: 992px,
+    xl: $screen-lg--custom
+)) {
+    .news-carousel__btn-next {
+        right: -16px;
+    }
 
-        .news-carousel__btn-prev {
-            left: -16px;
-        }
+    .news-carousel__btn-prev {
+        left: -16px;
     }
 }
 
