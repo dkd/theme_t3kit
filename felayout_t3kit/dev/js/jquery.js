@@ -1,6 +1,6 @@
 // jquery
 // ==========================================================
-import jQuery from 'jquery';
+import jQuery from 'jquery'
 // ==========================================================
 
-window.jQuery = window.$ = jQuery;
+window.jQuery = window.$ = jQuery

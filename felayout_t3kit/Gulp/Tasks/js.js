@@ -78,7 +78,8 @@ module.exports = {
 
       fs.writeFileSync(
         path.join(object.outputPath, object.bundleName),
-        uglified.code
+        `${uglified.code}
+        /*# sourceMappingUrl=${object.bundleName}.map */`
       )
       fs.writeFileSync(
         path.join(object.outputPath, `${object.bundleName}.map`),

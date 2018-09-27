@@ -1,9 +1,9 @@
 // ########## general.js ###########
 /* global jQuery */
 
-import objectFitImages from 'object-fit-images';
+import objectFitImages from 'object-fit-images'
 
-;(function ($) {
+  ;(function ($) {
   'use strict'
 
   // document load event
