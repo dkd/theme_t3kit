@@ -35,6 +35,7 @@ npm install
 ### Gulp commands:
 
 - Run `gulp` to start local server (_proxied from t3kit TYPO3 installation_) with livereload `localhost:9001`
+  Careful! On Mac you have to replace the domain in browserSync's proxy settings with the ip of your `docker-machine'.
 - Run `gulp lint` to check CSS (.stylelintrc) and JS (JS standard) files according code conventions.
 - Run `gulp assets` to copy and compress all images to `theme_t3kit/Resources/Public/css` folder.
 - Run `gulp css` to compile all Front-End service files plus **CSS** styling for **t3kit** needs and copy it to `theme_t3kit/Resources/Public/css` folder.
