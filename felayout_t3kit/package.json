@@ -6,7 +6,7 @@
   "repository": "t3kit/theme_t3kit",
   "scripts": {
     "build": "gulp build",
-    "watch": "gulp watch"
+    "watch": "NODE_ENV=development gulp watch"
   },
   "dependencies": {
     "awesomplete": "1.1.2",
@@ -17,7 +17,6 @@
     "jquery": "3.3.1",
     "jquery-touchswipe": "1.6.18",
     "object-fit-images": "3.2.3",
-    "pretty-bytes": "^5.1.0",
     "simplelightbox": "1.12.1",
     "smtlk-dotdotdot": "1.8.3",
     "swiper": "3.4.2"
@@ -38,16 +37,13 @@
     "gulp-filter": "^5.1.0",
     "gulp-if": "^2.0.2",
     "gulp-imagemin": "^4.1.0",
-    "gulp-modernizr": "^2.0.4",
     "gulp-postcss": "^7.0.1",
     "gulp-resolve-url": "0.0.2",
-    "gulp-rollup": "^2.16.2",
     "gulp-sass": "^4.0.1",
     "gulp-size": "^3.0.0",
     "gulp-sourcemaps": "^2.6.4",
     "gulp-standard": "^12.0.0",
     "gulp-stylelint": "^7.0.0",
-    "gulp-uglify": "^3.0.0",
     "merge-stream": "^1.0.1",
     "minimatch": "^3.0.4",
     "rollup": "^0.66.2",
@@ -56,8 +52,8 @@
     "rollup-plugin-multi-entry": "^2.0.2",
     "rollup-plugin-node-resolve": "^3.4.0",
     "rollup-plugin-uglify": "^6.0.0",
+    "pretty-bytes": "^5.1.0",
     "stylelint": "^9.5.0",
-    "uglify-js": "^3.4.9",
     "uglify-save-license": "^0.4.1"
   },
   "standard.options": {

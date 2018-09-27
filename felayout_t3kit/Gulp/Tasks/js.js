@@ -5,7 +5,7 @@ const rollupBabel = require('rollup-plugin-babel')
 const rollupCommonjs = require('rollup-plugin-commonjs')
 const rollupResolve = require('rollup-plugin-node-resolve')
 const path = require('path')
-const uglifyJs = require('uglify-js')
+const { uglify } = require('rollup-plugin-uglify')
 const fs = require('fs')
 const prettyBytes = require('pretty-bytes')
 const chalk = require('chalk')
@@ -44,47 +44,36 @@ module.exports = {
             browser: true
           }),
           // transpile es6
-          rollupBabel(settings.js.babel)
+          rollupBabel(settings.js.babel),
+          uglify(settings.js.uglify)
         ]
       })
 
       const { code, map } = await bundle.generate({
         format: 'iife',
-        sourceMap: helpers.isDevEnvironment()
+        sourcemap: helpers.isDevEnvironment(),
+        sourcemapFile: object.bundleName
       })
 
-      const uglifyJsOptions = {
-        sourceMap: (helpers.isDevEnvironment()) ? {} : {
-          filename: object.bundleName,
-          url: `${object.bundleName}.map`,
-          content: map
-        }
-      }
-
-      const uglified = uglifyJs.minify(
-        code,
-        {
-          ...settings.js.uglify,
-          ...uglifyJsOptions
-        }
-      )
+      const mapString = JSON.stringify(map)
 
       console.log(
         helpers.timeStamp() + ' ' +
         chalk.cyan(`[${object.bundleName}]  `) +
         chalk.green('all files ') +
-        chalk.magenta(prettyBytes(uglified.code.length + uglified.map.length))
+        chalk.magenta(prettyBytes(code.length + mapString.length))
       )
 
       fs.writeFileSync(
         path.join(object.outputPath, object.bundleName),
-        `${uglified.code}
-        /*# sourceMappingUrl=${object.bundleName}.map */`
+        `${code}\n//# sourceMappingURL=${object.bundleName}.map`
       )
-      fs.writeFileSync(
-        path.join(object.outputPath, `${object.bundleName}.map`),
-        uglified.map
-      )
+      if (helpers.isDevEnvironment()) {
+        fs.writeFileSync(
+          path.join(object.outputPath, `${object.bundleName}.map`),
+          mapString
+        )
+      }
     })
     return Promise.all(promises)
   }

@@ -1,5 +1,4 @@
 const helpers = require('./helpers')
-const keepLicense = require('uglify-save-license')
 
 module.exports = {
   assets: {
@@ -113,7 +112,7 @@ module.exports = {
     uglify: {
       output: {
         // licences will (and must) be kept, even if the licence comment has no directive such as @license and /*!
-        comments: keepLicense
+        comments: 'all'
       }
     },
     /**
