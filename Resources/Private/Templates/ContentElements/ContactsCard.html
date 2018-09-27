@@ -15,14 +15,14 @@
 								<div class="contacts-card__contacts-photo _img-overlay {f:cObject(typoscriptObjectPath:'lib.responsiveContactCards', data:image.uid)}"></div>
 							</f:then>
 							<f:else>
-								<f:image class="img-responsive contacts-card__contacts-photo" image="{image}" maxWidth="{settings.defaultWidth}" cropVariant="default" />
+								<f:image class="img-fluid contacts-card__contacts-photo" image="{image}" maxWidth="{settings.defaultWidth}" cropVariant="default" />
 							</f:else>
 						</f:if>
 					</f:if>
 				</f:for>
 			</f:then>
 			<f:else>
-				<f:image src="{settings.defaultImage}" class="img-responsive contacts-card__contacts-photo"/>
+				<f:image src="{settings.defaultImage}" class="img-fluid contacts-card__contacts-photo"/>
 			</f:else>
 		</f:if>
 	</div>

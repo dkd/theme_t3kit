@@ -3,7 +3,7 @@ lib.header.logo {
     main.file = {$themes.configuration.header.logo.main.file}
     main.titleText.data = LLL:EXT:theme_t3kit/Resources/Private/Language/locallang.xlf:logoTitle
     main.altText = {$themes.configuration.siteName}
-    main.params = class="header-middle__logo-img img-responsive"
+    main.params = class="header-middle__logo-img img-fluid"
     main.stdWrap {
         required = 1
         typolink {
