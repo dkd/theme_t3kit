@@ -11,7 +11,7 @@
   "dependencies": {
     "awesomplete": "1.1.2",
     "bootstrap": "4.0.0",
-    "compass-sass-mixins": "^0.12.7",
+    "compass-mixins": "^0.12.10",
     "flag-icon-css": "3.0.0",
     "jarallax": "1.10.3",
     "jquery": "3.3.1",
