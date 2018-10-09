@@ -6,7 +6,7 @@
                 # excludeFromConcatenation =
                 # disableCompression =
             }
-            components = {$themes.configuration.feLayoutScssPath}/components.css
+            components = {$themes.configuration.feLayoutScssPath}/components.scss
             components {
                 #excludeFromConcatenation =
                 #disableCompression =
@@ -21,8 +21,8 @@
                 #excludeFromConcatenation =
                 #disableCompression =
             }
-            customLess = {$themes.configuration.customPath}/custom.scss
-            customLess {
+            customScss = {$themes.configuration.customPath}/custom.scss
+            customScss {
                 #excludeFromConcatenation =
                 #disableCompression =
             }

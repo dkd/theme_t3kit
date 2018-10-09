@@ -1,5 +1,5 @@
 #############################################
-# Less: Less variables constants
+# Scss: Scss variables constants
 #############################################
 
 
@@ -7,36 +7,36 @@
 #############################################
 # customsubcategory=main_color=Main Color
 # cat=colors,basic/main_color/; type=color; label= Main Color
-themes.configuration.less.var.mainColor =
+themes.configuration.scss.var.mainColor =
 
 
 # Body
 #############################################
 # customsubcategory=main_body_colors=Main Body Colors
 # cat=colors,basic/main_body_colors/; type=color; label= Main Body Background
-themes.configuration.less.var.mainBodyBg =
+themes.configuration.scss.var.mainBodyBg =
 # cat=colors,basic/main_body_colors/; type=color; label= Main Text Color
-themes.configuration.less.var.mainTextColor =
+themes.configuration.scss.var.mainTextColor =
 # cat=colors,basic/main_body_colors/; type=color; label= Main Border Color
-themes.configuration.less.var.borderColor =
+themes.configuration.scss.var.borderColor =
 
 
 # Main Links
 #############################################
 # customsubcategory=main_links_colors=Main Links Colors
 # cat=colors,basic/main_links_colors/; type=color; label= Main Link Color
-themes.configuration.less.var.mainLinkColor =
+themes.configuration.scss.var.mainLinkColor =
 # cat=colors,basic/main_links_colors/; type=color; label= Main Link Hover Color
-themes.configuration.less.var.mainLinkHoverColor =
+themes.configuration.scss.var.mainLinkHoverColor =
 
 
 # Buttons
 #############################################
 # customsubcategory=button_colors=Button Colors
 # cat=colors,basic/button_colors/; type=color; label= Button Text Color
-themes.configuration.less.var.buttonTextColor =
+themes.configuration.scss.var.buttonTextColor =
 # cat=colors,basic/button_colors/; type=color; label= Button Background Color
-themes.configuration.less.var.buttonBgColor =
+themes.configuration.scss.var.buttonBgColor =
 
 
 
@@ -47,46 +47,46 @@ themes.configuration.less.var.buttonBgColor =
 #Header Top
 #############################################
 # cat=header,advanced/header_top; type=string; label= Header Top Height
-themes.configuration.less.var.headerTopHeight =
+themes.configuration.scss.var.headerTopHeight =
 
 # customsubcategory=header_top_colors= Header Top Colors
 # cat=colors,advanced/header_top_colors; type=color; label= Header Top Background Color
-themes.configuration.less.var.headerTopBgColor =
+themes.configuration.scss.var.headerTopBgColor =
 # cat=colors,advanced/header_top_colors; type=color; label= Header Top Color
-themes.configuration.less.var.headerTopColor =
+themes.configuration.scss.var.headerTopColor =
 
 
 #Header middle
 #############################################
 # cat=header,advanced/header_middle; type=string; label= Header Middle Search Height
-themes.configuration.less.var.headerMiddleSearchHeight =
+themes.configuration.scss.var.headerMiddleSearchHeight =
 
 # customsubcategory=header_middle_colors= Header Middle Colors
 # cat=colors,advanced/header_middle_colors; type=color; label= Header Middle Search Btn Background
-themes.configuration.less.var.headerMiddleSearchBtnBg =
+themes.configuration.scss.var.headerMiddleSearchBtnBg =
 # cat=colors,advanced/header_middle_colors; type=color; label= Header Middle Search Btn Hover
-themes.configuration.less.var.headerMiddleSearchBtnHover =
+themes.configuration.scss.var.headerMiddleSearchBtnHover =
 
 # customsubcategory=header_search_field_color= Header Search Field Color
 # cat=colors,advanced/header_search_field_color; type=color; label= Header Search Field Text Color
-themes.configuration.less.var.HeaderSearchFieldTextColor =
+themes.configuration.scss.var.HeaderSearchFieldTextColor =
 
 
 # Social Icons
 # cat=colors,advanced/header_middle_colors; type=color; label= Social Icons Background Color
-themes.configuration.less.var.socialIconsBgColor =
+themes.configuration.scss.var.socialIconsBgColor =
 # cat=colors,advanced/header_middle_colors; type=color; label= Social Icons Hover Color
-themes.configuration.less.var.socialIconsHoverColor =
+themes.configuration.scss.var.socialIconsHoverColor =
 
 
 # cat=header,advanced/header_middle; type=string; label= Header Middle Height
-themes.configuration.less.var.headerMiddleHeight =
+themes.configuration.scss.var.headerMiddleHeight =
 
 # cat=colors,advanced/header_middle_colors; type=color; label= Header Middle Background Color
-themes.configuration.less.var.headerMiddleBgColor =
+themes.configuration.scss.var.headerMiddleBgColor =
 
 # cat=colors,advanced/header_middle_colors; type=color; label= Header Middle Border Color
-themes.configuration.less.var.headerBorderColor =
+themes.configuration.scss.var.headerBorderColor =
 
 
 
@@ -94,27 +94,27 @@ themes.configuration.less.var.headerBorderColor =
 #############################################
 # customsubcategory=main_menu=Main Menu
 # cat=menu,advanced/main_menu; type=string; label= Navigation Height
-themes.configuration.less.var.navHeight =
+themes.configuration.scss.var.navHeight =
 # cat=menu,advanced/main_menu; type=options[left,right]; label= Mobile Navigation Toggle Btn
-themes.configuration.less.var.mobileNavToggleBtn = left
+themes.configuration.scss.var.mobileNavToggleBtn = left
 
 # customsubcategory=header_main_menu_colors= Main Menu Colors
 # cat=colors,advanced/header_main_menu_colors; type=color; label= Navigation Link Color
-themes.configuration.less.var.navLinkColor =
+themes.configuration.scss.var.navLinkColor =
 # cat=colors,advanced/header_main_menu_colors; type=color; label= Navigation Link Hover Color
-themes.configuration.less.var.navLinkHoverColor =
+themes.configuration.scss.var.navLinkHoverColor =
 # cat=colors,advanced/header_main_menu_colors; type=color; label= Navigation Link Active Color
-themes.configuration.less.var.navLinkActiveColor =
+themes.configuration.scss.var.navLinkActiveColor =
 # cat=colors,advanced/header_main_menu_colors; type=color; label= Navigation Link Active Hover Color
-themes.configuration.less.var.navLinkActiveHoverColor =
+themes.configuration.scss.var.navLinkActiveHoverColor =
 # cat=colors,advanced/header_main_menu_colors; type=color; label= Navigation Link Hover Background
-themes.configuration.less.var.navLinkHoverBackground =
+themes.configuration.scss.var.navLinkHoverBackground =
 # cat=colors,advanced/header_main_menu_colors; type=color; label= Navigation Link Arrow Color
-themes.configuration.less.var.navLinkArrowColor =
+themes.configuration.scss.var.navLinkArrowColor =
 # cat=colors,advanced/header_main_menu_colors; type=color; label= Navigation Background Color
-themes.configuration.less.var.navBackgroundColor =
+themes.configuration.scss.var.navBackgroundColor =
 # cat=colors,advanced/header_main_menu_colors; type=color; label= Navigation Search Button Color
-themes.configuration.less.var.navSearchBtnColor =
+themes.configuration.scss.var.navSearchBtnColor =
 
 
 
@@ -122,13 +122,13 @@ themes.configuration.less.var.navSearchBtnColor =
 #############################################
 # customsubcategory=footer_color=Footer Colors
 # cat=colors,basic/footer_color/; type=color; label= Footer Background
-themes.configuration.less.var.footerBackground =
+themes.configuration.scss.var.footerBackground =
 # cat=colors,basic/footer_color/; type=color; label= Footer Color
-themes.configuration.less.var.footerColor =
+themes.configuration.scss.var.footerColor =
 # cat=colors,basic/footer_color/; type=color; label= Footer Link Color
-themes.configuration.less.var.footerLinkColor =
+themes.configuration.scss.var.footerLinkColor =
 # cat=colors,basic/footer_color/; type=color; label= Footer Link Hover Color
-themes.configuration.less.var.footerLinkHoverColor =
+themes.configuration.scss.var.footerLinkHoverColor =
 
 
 #############################################
@@ -139,43 +139,43 @@ themes.configuration.less.var.footerLinkHoverColor =
 #############################################
 # customsubcategory=menu_sub_colors= Sub Menu Colors
 # cat=colors,advanced/menu_sub_colors; type=color; label= Sub Navigation Background
-themes.configuration.less.var.subNavigationBackground =
+themes.configuration.scss.var.subNavigationBackground =
 # cat=colors,advanced/menu_sub_colors; type=color; label= Sub Navigation Border
-themes.configuration.less.var.subNavigationBorder =
+themes.configuration.scss.var.subNavigationBorder =
 # cat=colors,advanced/menu_sub_colors; type=color; label= Sub Navigation Active Border
-themes.configuration.less.var.subNavigationActiveBorder =
+themes.configuration.scss.var.subNavigationActiveBorder =
 # cat=colors,advanced/menu_sub_colors; type=color; label= Sub Navigation Link Color
-themes.configuration.less.var.subNavigationLinkColor =
+themes.configuration.scss.var.subNavigationLinkColor =
 # cat=colors,advanced/menu_sub_colors; type=color; label= Sub Navigation Link Hover Color
-themes.configuration.less.var.subNavigationLinkHoverColor =
+themes.configuration.scss.var.subNavigationLinkHoverColor =
 # cat=colors,advanced/menu_sub_colors; type=color; label= Sub Navigation Link Hover Background
-themes.configuration.less.var.subNavigationLinkHoverBg =
+themes.configuration.scss.var.subNavigationLinkHoverBg =
 # cat=colors,advanced/menu_sub_colors; type=color; label= Sub Navigation Link Active Color
-themes.configuration.less.var.subNavigationLinkActiveColor =
+themes.configuration.scss.var.subNavigationLinkActiveColor =
 # cat=colors,advanced/menu_sub_colors; type=color; label= Sub Navigation Link Active Background
-themes.configuration.less.var.subNavigationLinkActiveBg =
+themes.configuration.scss.var.subNavigationLinkActiveBg =
 
 
 # Menu breadcrumb
 #############################################
 # customsubcategory=menu_breadcrumb_colors= Breadcrumbs Colors
 # cat=colors,advanced/menu_breadcrumb_colors; type=color; label= Breadcrumbs Background
-themes.configuration.less.var.breadcrumbsBackground =
+themes.configuration.scss.var.breadcrumbsBackground =
 # cat=colors,advanced/menu_breadcrumb_colors; type=color; label= Breadcrumbs Link Color
-themes.configuration.less.var.breadcrumbsLinkColor =
+themes.configuration.scss.var.breadcrumbsLinkColor =
 # cat=colors,advanced/menu_breadcrumb_colors; type=color; label= Breadcrumbs Link Active Color
-themes.configuration.less.var.breadcrumbsLinkActiveColor =
+themes.configuration.scss.var.breadcrumbsLinkActiveColor =
 # cat=colors,advanced/menu_breadcrumb_colors; type=color; label= Breadcrumbs Link Hover Color
-themes.configuration.less.var.breadcrumbsLinkHoverColor =
+themes.configuration.scss.var.breadcrumbsLinkHoverColor =
 
 
 
 # Logo
 #############################################
 # cat=theme,basic/logo; type=string; label= Logo Top
-themes.configuration.less.var.logoTop =
+themes.configuration.scss.var.logoTop =
 # cat=theme,basic/logo; type=string; label= Logo Left
-themes.configuration.less.var.logoLeft =
+themes.configuration.scss.var.logoLeft =
 # cat=theme,basic/logo; type=string; label= Logo Width
-themes.configuration.less.var.logoWidth =
+themes.configuration.scss.var.logoWidth =
 
