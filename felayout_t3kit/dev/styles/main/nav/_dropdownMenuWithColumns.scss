@@ -35,7 +35,7 @@
 
 .touch ._dropdown-menu-with-columns .main-navigation__sub-item-link:focus,
 .touch ._dropdown-menu-with-columns .main-navigation__sub-item-link:hover {
-    color: rgba($nav-link-hover-color, 60%);
+    color: rgba($nav-link-hover-color, 0.6);
 }
 
 @include media-breakpoint-up(md) {

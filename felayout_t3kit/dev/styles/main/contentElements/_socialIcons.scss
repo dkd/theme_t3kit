@@ -33,7 +33,7 @@
             position: absolute;
             height: 36px;
             width: 36px;
-            border: 2px solid rgba($social-icons-bg-color, 30%);
+            border: 2px solid rgba($social-icons-bg-color, 0.3);
             border-radius: 50%;
             top: 50%;
             left: 50%;
@@ -47,7 +47,7 @@
         color: $social-icons-hover-color;
 
         & > .icons:after {
-            border-color: rgba($social-icons-hover-color, 50%);
+            border-color: rgba($social-icons-hover-color, 0.5);
         }
     }
 }

@@ -222,7 +222,7 @@
 
 .no-touch .header-top__language-menu-btn:hover {
     // color: lighten($header-top-color, 15%);
-    color: rgba($header-top-color, 50%);
+    color: rgba($header-top-color, 0.5);
 }
 
 .header-top__language-menu-box-close-btn {
@@ -679,12 +679,12 @@
     padding: 10px 30px 10px 60px;
     display: block;
     // color: lighten($nav-link-hover-color, 20%);
-    color: rgba($nav-link-hover-color, 60%);
+    color: rgba($nav-link-hover-color, 0.6);
 }
 
 .no-touch .main-navigation__sub-item-link:hover {
     background: $nav-link-hover-background;
-    color: rgba($nav-link-hover-color, 60%);
+    color: rgba($nav-link-hover-color, 0.6);
 }
 
 ._active > .main-navigation__sub-item-link {
@@ -909,7 +909,7 @@
         position: absolute;
         height: 38px;
         width: 38px;
-        border: 2px solid rgba($nav-search-btn-color, 40%);
+        border: 2px solid rgba($nav-search-btn-color, 0.4);
         border-radius: 50%;
         top: 50%;
         left: 50%;

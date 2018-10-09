@@ -55,7 +55,7 @@
     text-align: right;
     right: 0;
     position: absolute;
-    background-color: rgba(shade($main-color, 80%), 80%);
+    background-color: rgba(shade($main-color, 80%), 0.8);
     padding: 10px;
     bottom: 0;
     text-transform: uppercase;

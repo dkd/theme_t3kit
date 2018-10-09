@@ -127,7 +127,7 @@
         color: $social-icons-hover-color;
 
         & > .icons:after {
-            border-color: rgba($social-icons-hover-color, 50%);
+            border-color: rgba($social-icons-hover-color, 0.5);
         }
     }
 }
