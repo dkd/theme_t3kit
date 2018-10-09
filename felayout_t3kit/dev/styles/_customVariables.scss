@@ -132,7 +132,7 @@ $btn-font-weight:               normal;
 $btn-border-radius-base:        none;
 $btn-default-color:             $main-body-bg;
 $btn-default-bg:                $main-color;
-$btn-default-border:            $main-color;
+$btn-default-border:            tint($main-color, 70%);
 
 $padding-base-vertical:     8px;
 $padding-base-horizontal:   14px;

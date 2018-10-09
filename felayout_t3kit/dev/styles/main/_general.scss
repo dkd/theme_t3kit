@@ -118,7 +118,7 @@ h2 {
 // ======== Button styles  ====
 // ============================
 .btn-default {
-    @include btn-style--t3kit($btn-default-color, $btn-default-bg, transparent);
+    @include btn-style--t3kit($btn-default-color, transparent, $btn-default-border);
 }
 
 .btn-default--inverted {
