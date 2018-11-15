@@ -61,53 +61,71 @@
 				<source>Column 4</source>
 			</trans-unit>
 
+			<trans-unit id="column_1_hidden">
+				<source>Column 1 hiding. From what size on should this column be hidden?</source>
+			</trans-unit>
+			<trans-unit id="column_1_visible">
+				<source>Column 1 showing. From what size on should this column be visible? (Overrides hiding)</source>
+			</trans-unit>
 			<trans-unit id="column_1_xs">
-				<source>Column 1 Mobile devices. "Extra small devices Phones (&lt;768px)"</source>
+				<source>Column 1 Mobile devices. "Extra small devices Phones (&lt;576px)"</source>
 			</trans-unit>
 			<trans-unit id="column_1_sm">
-				<source>Column 1 Tablets. "Small devices Tablets (≥768px)"</source>
+				<source>Column 1 Tablets. "Small devices Tablets (≥576px)"</source>
 			</trans-unit>
 			<trans-unit id="column_1_md">
-				<source>Column 1 Desktops. "Medium devices Desktops (≥992px)"</source>
+				<source>Column 1 Desktops. "Medium devices Desktops (≥768px)"</source>
 			</trans-unit>
 			<trans-unit id="column_1_lg">
-				<source>Column 1 Large devices "Large devices Desktops (≥1200px)"</source>
+				<source>Column 1 Large devices "Large devices Desktops (≥992px)"</source>
+			</trans-unit>
+			<trans-unit id="colum_1_xl">
+				<source>Column 1 Extra Large devices "Extra Large devices Desktops (≥1200px)"</source>
 			</trans-unit>
 			<trans-unit id="column_2_xs">
-				<source>Column 2 Mobile devices. "Extra small devices Phones (&lt;768px)"</source>
+				<source>Column 2 Mobile devices. "Extra small devices Phones (&lt;576px)"</source>
 			</trans-unit>
 			<trans-unit id="column_2_sm">
-				<source>Column 2 Tablets. "Small devices Tablets (≥768px)"</source>
+				<source>Column 2 Tablets. "Small devices Tablets (≥576px)"</source>
 			</trans-unit>
 			<trans-unit id="column_2_md">
-				<source>Column 2 Desktops. "Medium devices Desktops (≥992px)"</source>
+				<source>Column 2 Desktops. "Medium devices Desktops (≥768px)"</source>
 			</trans-unit>
 			<trans-unit id="column_2_lg">
-				<source>Column 2 Large devices "Large devices Desktops (≥1200px)"</source>
+				<source>Column 2 Large devices "Large devices Desktops (≥992px)"</source>
+			</trans-unit>
+			<trans-unit id="colum_2_xl">
+				<source>Column 2 Extra Large devices "Extra Large devices Desktops (≥1200px)"</source>
 			</trans-unit>
 			<trans-unit id="column_3_xs">
-				<source>Column 3 Mobile devices. "Extra small devices Phones (&lt;768px)"</source>
+				<source>Column 3 Mobile devices. "Extra small devices Phones (&lt;576px)"</source>
 			</trans-unit>
 			<trans-unit id="column_3_sm">
-				<source>Column 3 Tablets. "Small devices Tablets (≥768px)"</source>
+				<source>Column 3 Tablets. "Small devices Tablets (≥576px)"</source>
 			</trans-unit>
 			<trans-unit id="column_3_md">
-				<source>Column 3 Desktops. "Medium devices Desktops (≥992px)"</source>
+				<source>Column 3 Desktops. "Medium devices Desktops (≥768px)"</source>
 			</trans-unit>
 			<trans-unit id="column_3_lg">
-				<source>Column 3 Large devices "Large devices Desktops (≥1200px)"</source>
+				<source>Column 3 Large devices "Large devices Desktops (≥992px)"</source>
+			</trans-unit>
+			<trans-unit id="colum_3_xl">
+				<source>Column 3 Extra Large devices "Extra Large devices Desktops (≥1200px)"</source>
 			</trans-unit>
 			<trans-unit id="column_4_xs">
-				<source>Column 4 Mobile devices. "Extra small devices Phones (&lt;768px)"</source>
+				<source>Column 4 Mobile devices. "Extra small devices Phones (&lt;576px)"</source>
 			</trans-unit>
 			<trans-unit id="column_4_sm">
-				<source>Column 4 Tablets. "Small devices Tablets (≥768px)"</source>
+				<source>Column 4 Tablets. "Small devices Tablets (≥576px)"</source>
 			</trans-unit>
 			<trans-unit id="column_4_md">
-				<source>Column 4 Desktops. "Medium devices Desktops (≥992px)"</source>
+				<source>Column 4 Desktops. "Medium devices Desktops (≥768px)"</source>
 			</trans-unit>
 			<trans-unit id="column_4_lg">
-				<source>Column 4 Large devices "Large devices Desktops (≥1200px)"</source>
+				<source>Column 4 Large devices "Large devices Desktops (≥992px)"</source>
+			</trans-unit>
+			<trans-unit id="colum_4_xl">
+				<source>Column 4 Extra Large devices "Extra Large devices Desktops (≥1200px)"</source>
 			</trans-unit>
 
 			<trans-unit id="column_1_layout">
@@ -170,16 +188,19 @@
 				<source>Responsive grid settings. Column width on different devices. Based on Bootstrap grid.</source>
 			</trans-unit>
 			<trans-unit id="col-xs">
-				<source>Mobile devices. "Extra small devices Phones (&lt;768px)"</source>
+				<source>Mobile devices. "Extra small devices Phones (&lt;576px)"</source>
 			</trans-unit>
 			<trans-unit id="col-sm">
-				<source>Tablets. "Small devices Tablets (≥768px)"</source>
+				<source>Tablets. "Small devices Tablets (≥576px)"</source>
 			</trans-unit>
 			<trans-unit id="col-md">
-				<source>Desktops. "Medium devices Desktops (≥992px)"</source>
+				<source>Desktops. "Medium devices Desktops (≥768px)"</source>
 			</trans-unit>
 			<trans-unit id="col-lg">
-				<source>Large devices "Large devices Desktops (≥1200px)"</source>
+				<source>Large devices "Large devices Desktops (≥992px)"</source>
+			</trans-unit>
+			<trans-unit id="col-xl">
+				<source>Extra Large devices "Extra Large devices Desktops (≥1200px)"</source>
 			</trans-unit>
 
 

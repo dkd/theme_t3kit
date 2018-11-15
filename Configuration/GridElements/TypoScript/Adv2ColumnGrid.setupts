@@ -12,6 +12,9 @@ lib.gridelements {
                     50.field = flexform_column_2_layout
                     60.field = flexform_column_2_offset
                     70.field = flexform_column_2_class
+                    80.field = flexform_column_2_class
+                    90.field = flexform_column_2_hidden
+                    100.field = flexform_column_2_visible
                     stdWrap.noTrimWrap = |<div class="col2|">|
                 }
                 # Content wrapper

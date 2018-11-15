@@ -10,27 +10,27 @@ lib.gridelements {
                     10 {
                         field = flexform_column_1_xs
                         required = 1
-                        noTrimWrap = | |
+                        noTrimWrap = | ||
                     }
                     20 < .10
                     20.field = flexform_column_1_sm
-                    20.noTrimWrap = | |
                     30 < .10
                     30.field = flexform_column_1_md
-                    30.noTrimWrap = | |
                     40 < .10
                     40.field = flexform_column_1_lg
-                    40.noTrimWrap = | |
                     50 < .10
-                    50.field = flexform_column_1_layout
-                    50.noTrimWrap = | |
+                    50.field = flexform_column_1_xl
                     60 < .10
-                    60.field = flexform_column_1_offset
-                    60.noTrimWrap = | |
+                    60.field = flexform_column_1_layout
                     70 < .10
-                    70.field = flexform_column_1_class
-                    70.noTrimWrap = | |
-                    stdWrap.noTrimWrap = |<div class="col1 |">|
+                    70.field = flexform_column_1_offset
+                    80 < .10
+                    80.field = flexform_column_1_class
+                    90 < .10
+                    90.field = flexform_column_1_hidden
+                    100 < .10
+                    100.field = flexform_column_1_visible
+                    stdWrap.noTrimWrap = |<div class="col1|">|
                 }
                 wrap = |</div>
 

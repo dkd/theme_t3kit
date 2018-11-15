@@ -33,361 +33,409 @@
 								</config>
 						</TCEforms>
 				</container>
+
 				<column_1_xs type="array">
-						<TCEforms type="array">
-								<label>LLL:EXT:theme_t3kit/Resources/Private/Language/GridElements.xlf:column_1_xs</label>
-								<config type="array">
-										<type>select</type>
-										<items type="array">
-											<numIndex index="0" type="array">
-												<numIndex index="0">-</numIndex>
-												<numIndex index="1"></numIndex>
-											</numIndex>
-											<numIndex index="1" type="array">
-												<numIndex index="0">Hidden</numIndex>
-												<numIndex index="1">hidden-xs</numIndex>
-											</numIndex>
-											<numIndex index="2" type="array">
-												<numIndex index="0">1 of 12</numIndex>
-												<numIndex index="1">col-xs-1</numIndex>
-											</numIndex>
-											<numIndex index="3" type="array">
-												<numIndex index="0">2 of 12</numIndex>
-												<numIndex index="1">col-xs-2</numIndex>
-											</numIndex>
-											<numIndex index="4" type="array">
-												<numIndex index="0">3 of 12</numIndex>
-												<numIndex index="1">col-xs-3</numIndex>
-											</numIndex>
-											<numIndex index="5" type="array">
-												<numIndex index="0">4 of 12</numIndex>
-												<numIndex index="1">col-xs-4</numIndex>
-											</numIndex>
-											<numIndex index="6" type="array">
-												<numIndex index="0">5 of 12</numIndex>
-												<numIndex index="1">col-xs-5</numIndex>
-											</numIndex>
-											<numIndex index="7" type="array">
-												<numIndex index="0">6 of 12</numIndex>
-												<numIndex index="1">col-xs-6</numIndex>
-											</numIndex>
-											<numIndex index="8" type="array">
-												<numIndex index="0">7 of 12</numIndex>
-												<numIndex index="1">col-xs-7</numIndex>
-											</numIndex>
-											<numIndex index="9" type="array">
-												<numIndex index="0">8 of 12</numIndex>
-												<numIndex index="1">col-xs-8</numIndex>
-											</numIndex>
-											<numIndex index="10" type="array">
-												<numIndex index="0">9 of 12</numIndex>
-												<numIndex index="1">col-xs-9</numIndex>
-											</numIndex>
-											<numIndex index="11" type="array">
-												<numIndex index="0">10 of 12</numIndex>
-												<numIndex index="1">col-xs-10</numIndex>
-											</numIndex>
-											<numIndex index="12" type="array">
-												<numIndex index="0">11 of 12</numIndex>
-												<numIndex index="1">col-xs-11</numIndex>
-											</numIndex>
-											<numIndex index="13" type="array">
-												<numIndex index="0">12 of 12</numIndex>
-												<numIndex index="1">col-xs-12</numIndex>
-											</numIndex>
-										</items>
-										<default></default>
-								</config>
-						</TCEforms>
+					<TCEforms type="array">
+						<label>LLL:EXT:theme_t3kit/Resources/Private/Language/GridElements.xlf:column_1_xs</label>
+						<config type="array">
+							<type>select</type>
+							<items type="array">
+								<numIndex index="0" type="array">
+									<numIndex index="0">-</numIndex>
+									<numIndex index="1"></numIndex>
+								</numIndex>
+								<numIndex index="1" type="array">
+									<numIndex index="0">1 of 12</numIndex>
+									<numIndex index="1">col-1</numIndex>
+								</numIndex>
+								<numIndex index="2" type="array">
+									<numIndex index="0">2 of 12</numIndex>
+									<numIndex index="1">col-2</numIndex>
+								</numIndex>
+								<numIndex index="3" type="array">
+									<numIndex index="0">3 of 12</numIndex>
+									<numIndex index="1">col-3</numIndex>
+								</numIndex>
+								<numIndex index="4" type="array">
+									<numIndex index="0">4 of 12</numIndex>
+									<numIndex index="1">col-4</numIndex>
+								</numIndex>
+								<numIndex index="5" type="array">
+									<numIndex index="0">5 of 12</numIndex>
+									<numIndex index="1">col-5</numIndex>
+								</numIndex>
+								<numIndex index="6" type="array">
+									<numIndex index="0">6 of 12</numIndex>
+									<numIndex index="1">col-6</numIndex>
+								</numIndex>
+								<numIndex index="7" type="array">
+									<numIndex index="0">7 of 12</numIndex>
+									<numIndex index="1">col-7</numIndex>
+								</numIndex>
+								<numIndex index="8" type="array">
+									<numIndex index="0">8 of 12</numIndex>
+									<numIndex index="1">col-8</numIndex>
+								</numIndex>
+								<numIndex index="9" type="array">
+									<numIndex index="0">9 of 12</numIndex>
+									<numIndex index="1">col-9</numIndex>
+								</numIndex>
+								<numIndex index="10" type="array">
+									<numIndex index="0">10 of 12</numIndex>
+									<numIndex index="1">col-10</numIndex>
+								</numIndex>
+								<numIndex index="11" type="array">
+									<numIndex index="0">11 of 12</numIndex>
+									<numIndex index="1">col-11</numIndex>
+								</numIndex>
+								<numIndex index="12" type="array">
+									<numIndex index="0">12 of 12</numIndex>
+									<numIndex index="1">col-12</numIndex>
+								</numIndex>
+							</items>
+							<default></default>
+						</config>
+					</TCEforms>
 				</column_1_xs>
 				<column_1_sm type="array">
-						<TCEforms type="array">
-								<label>LLL:EXT:theme_t3kit/Resources/Private/Language/GridElements.xlf:column_1_sm</label>
-								<config type="array">
-										<type>select</type>
-										<items type="array">
-											<numIndex index="0" type="array">
-												<numIndex index="0">-</numIndex>
-												<numIndex index="1"></numIndex>
-											</numIndex>
-											<numIndex index="1" type="array">
-												<numIndex index="0">Hidden</numIndex>
-												<numIndex index="1">hidden-sm</numIndex>
-											</numIndex>
-											<numIndex index="2" type="array">
-												<numIndex index="0">1 of 12</numIndex>
-												<numIndex index="1">col-sm-1</numIndex>
-											</numIndex>
-											<numIndex index="3" type="array">
-												<numIndex index="0">2 of 12</numIndex>
-												<numIndex index="1">col-sm-2</numIndex>
-											</numIndex>
-											<numIndex index="4" type="array">
-												<numIndex index="0">3 of 12</numIndex>
-												<numIndex index="1">col-sm-3</numIndex>
-											</numIndex>
-											<numIndex index="5" type="array">
-												<numIndex index="0">4 of 12</numIndex>
-												<numIndex index="1">col-sm-4</numIndex>
-											</numIndex>
-											<numIndex index="6" type="array">
-												<numIndex index="0">5 of 12</numIndex>
-												<numIndex index="1">col-sm-5</numIndex>
-											</numIndex>
-											<numIndex index="7" type="array">
-												<numIndex index="0">6 of 12</numIndex>
-												<numIndex index="1">col-sm-6</numIndex>
-											</numIndex>
-											<numIndex index="8" type="array">
-												<numIndex index="0">7 of 12</numIndex>
-												<numIndex index="1">col-sm-7</numIndex>
-											</numIndex>
-											<numIndex index="9" type="array">
-												<numIndex index="0">8 of 12</numIndex>
-												<numIndex index="1">col-sm-8</numIndex>
-											</numIndex>
-											<numIndex index="10" type="array">
-												<numIndex index="0">9 of 12</numIndex>
-												<numIndex index="1">col-sm-9</numIndex>
-											</numIndex>
-											<numIndex index="11" type="array">
-												<numIndex index="0">10 of 12</numIndex>
-												<numIndex index="1">col-sm-10</numIndex>
-											</numIndex>
-											<numIndex index="12" type="array">
-												<numIndex index="0">11 of 12</numIndex>
-												<numIndex index="1">col-sm-11</numIndex>
-											</numIndex>
-											<numIndex index="13" type="array">
-												<numIndex index="0">12 of 12</numIndex>
-												<numIndex index="1">col-sm-12</numIndex>
-											</numIndex>
-										</items>
-										<default></default>
-								</config>
-						</TCEforms>
+					<TCEforms type="array">
+						<label>LLL:EXT:theme_t3kit/Resources/Private/Language/GridElements.xlf:column_1_sm</label>
+						<config type="array">
+							<type>select</type>
+							<items type="array">
+								<numIndex index="0" type="array">
+									<numIndex index="0">-</numIndex>
+									<numIndex index="1"></numIndex>
+								</numIndex>
+								<numIndex index="1" type="array">
+									<numIndex index="0">1 of 12</numIndex>
+									<numIndex index="1">col-sm-1</numIndex>
+								</numIndex>
+								<numIndex index="2" type="array">
+									<numIndex index="0">2 of 12</numIndex>
+									<numIndex index="1">col-sm-2</numIndex>
+								</numIndex>
+								<numIndex index="3" type="array">
+									<numIndex index="0">3 of 12</numIndex>
+									<numIndex index="1">col-sm-3</numIndex>
+								</numIndex>
+								<numIndex index="4" type="array">
+									<numIndex index="0">4 of 12</numIndex>
+									<numIndex index="1">col-sm-4</numIndex>
+								</numIndex>
+								<numIndex index="5" type="array">
+									<numIndex index="0">5 of 12</numIndex>
+									<numIndex index="1">col-sm-5</numIndex>
+								</numIndex>
+								<numIndex index="6" type="array">
+									<numIndex index="0">6 of 12</numIndex>
+									<numIndex index="1">col-sm-6</numIndex>
+								</numIndex>
+								<numIndex index="7" type="array">
+									<numIndex index="0">7 of 12</numIndex>
+									<numIndex index="1">col-sm-7</numIndex>
+								</numIndex>
+								<numIndex index="8" type="array">
+									<numIndex index="0">8 of 12</numIndex>
+									<numIndex index="1">col-sm-8</numIndex>
+								</numIndex>
+								<numIndex index="9" type="array">
+									<numIndex index="0">9 of 12</numIndex>
+									<numIndex index="1">col-sm-9</numIndex>
+								</numIndex>
+								<numIndex index="10" type="array">
+									<numIndex index="0">10 of 12</numIndex>
+									<numIndex index="1">col-sm-10</numIndex>
+								</numIndex>
+								<numIndex index="11" type="array">
+									<numIndex index="0">11 of 12</numIndex>
+									<numIndex index="1">col-sm-11</numIndex>
+								</numIndex>
+								<numIndex index="12" type="array">
+									<numIndex index="0">12 of 12</numIndex>
+									<numIndex index="1">col-sm-12</numIndex>
+								</numIndex>
+							</items>
+							<default></default>
+						</config>
+					</TCEforms>
 				</column_1_sm>
 				<column_1_md type="array">
-						<TCEforms type="array">
-								<label>LLL:EXT:theme_t3kit/Resources/Private/Language/GridElements.xlf:column_1_md</label>
-								<config type="array">
-										<type>select</type>
-										<items type="array">
-											<numIndex index="0" type="array">
-												<numIndex index="0">-</numIndex>
-												<numIndex index="1"></numIndex>
-											</numIndex>
-											<numIndex index="1" type="array">
-												<numIndex index="0">Hidden</numIndex>
-												<numIndex index="1">hidden-md</numIndex>
-											</numIndex>
-											<numIndex index="2" type="array">
-												<numIndex index="0">1 of 12</numIndex>
-												<numIndex index="1">col-md-1</numIndex>
-											</numIndex>
-											<numIndex index="3" type="array">
-												<numIndex index="0">2 of 12</numIndex>
-												<numIndex index="1">col-md-2</numIndex>
-											</numIndex>
-											<numIndex index="4" type="array">
-												<numIndex index="0">3 of 12</numIndex>
-												<numIndex index="1">col-md-3</numIndex>
-											</numIndex>
-											<numIndex index="5" type="array">
-												<numIndex index="0">4 of 12</numIndex>
-												<numIndex index="1">col-md-4</numIndex>
-											</numIndex>
-											<numIndex index="6" type="array">
-												<numIndex index="0">5 of 12</numIndex>
-												<numIndex index="1">col-md-5</numIndex>
-											</numIndex>
-											<numIndex index="7" type="array">
-												<numIndex index="0">6 of 12</numIndex>
-												<numIndex index="1">col-md-6</numIndex>
-											</numIndex>
-											<numIndex index="8" type="array">
-												<numIndex index="0">7 of 12</numIndex>
-												<numIndex index="1">col-md-7</numIndex>
-											</numIndex>
-											<numIndex index="9" type="array">
-												<numIndex index="0">8 of 12</numIndex>
-												<numIndex index="1">col-md-8</numIndex>
-											</numIndex>
-											<numIndex index="10" type="array">
-												<numIndex index="0">9 of 12</numIndex>
-												<numIndex index="1">col-md-9</numIndex>
-											</numIndex>
-											<numIndex index="11" type="array">
-												<numIndex index="0">10 of 12</numIndex>
-												<numIndex index="1">col-md-10</numIndex>
-											</numIndex>
-											<numIndex index="12" type="array">
-												<numIndex index="0">11 of 12</numIndex>
-												<numIndex index="1">col-md-11</numIndex>
-											</numIndex>
-											<numIndex index="13" type="array">
-												<numIndex index="0">12 of 12</numIndex>
-												<numIndex index="1">col-md-12</numIndex>
-											</numIndex>
-										</items>
-										<default>col-md-4</default>
-								</config>
-						</TCEforms>
+					<TCEforms type="array">
+						<label>LLL:EXT:theme_t3kit/Resources/Private/Language/GridElements.xlf:column_1_md</label>
+						<config type="array">
+							<type>select</type>
+							<items type="array">
+								<numIndex index="0" type="array">
+									<numIndex index="0">-</numIndex>
+									<numIndex index="1"></numIndex>
+								</numIndex>
+								<numIndex index="1" type="array">
+									<numIndex index="0">1 of 12</numIndex>
+									<numIndex index="1">col-md-1</numIndex>
+								</numIndex>
+								<numIndex index="2" type="array">
+									<numIndex index="0">2 of 12</numIndex>
+									<numIndex index="1">col-md-2</numIndex>
+								</numIndex>
+								<numIndex index="3" type="array">
+									<numIndex index="0">3 of 12</numIndex>
+									<numIndex index="1">col-md-3</numIndex>
+								</numIndex>
+								<numIndex index="4" type="array">
+									<numIndex index="0">4 of 12</numIndex>
+									<numIndex index="1">col-md-4</numIndex>
+								</numIndex>
+								<numIndex index="5" type="array">
+									<numIndex index="0">5 of 12</numIndex>
+									<numIndex index="1">col-md-5</numIndex>
+								</numIndex>
+								<numIndex index="6" type="array">
+									<numIndex index="0">6 of 12</numIndex>
+									<numIndex index="1">col-md-6</numIndex>
+								</numIndex>
+								<numIndex index="7" type="array">
+									<numIndex index="0">7 of 12</numIndex>
+									<numIndex index="1">col-md-7</numIndex>
+								</numIndex>
+								<numIndex index="8" type="array">
+									<numIndex index="0">8 of 12</numIndex>
+									<numIndex index="1">col-md-8</numIndex>
+								</numIndex>
+								<numIndex index="9" type="array">
+									<numIndex index="0">9 of 12</numIndex>
+									<numIndex index="1">col-md-9</numIndex>
+								</numIndex>
+								<numIndex index="10" type="array">
+									<numIndex index="0">10 of 12</numIndex>
+									<numIndex index="1">col-md-10</numIndex>
+								</numIndex>
+								<numIndex index="11" type="array">
+									<numIndex index="0">11 of 12</numIndex>
+									<numIndex index="1">col-md-11</numIndex>
+								</numIndex>
+								<numIndex index="12" type="array">
+									<numIndex index="0">12 of 12</numIndex>
+									<numIndex index="1">col-md-12</numIndex>
+								</numIndex>
+							</items>
+							<default>col-md-12</default>
+						</config>
+					</TCEforms>
 				</column_1_md>
 				<column_1_lg type="array">
-						<TCEforms type="array">
-								<label>LLL:EXT:theme_t3kit/Resources/Private/Language/GridElements.xlf:column_1_lg</label>
-								<config type="array">
-										<type>select</type>
-										<items type="array">
-											<numIndex index="0" type="array">
-												<numIndex index="0">-</numIndex>
-												<numIndex index="1"></numIndex>
-											</numIndex>
-											<numIndex index="1" type="array">
-												<numIndex index="0">Hidden</numIndex>
-												<numIndex index="1">hidden-lg</numIndex>
-											</numIndex>
-											<numIndex index="2" type="array">
-												<numIndex index="0">1 of 12</numIndex>
-												<numIndex index="1">col-lg-1</numIndex>
-											</numIndex>
-											<numIndex index="3" type="array">
-												<numIndex index="0">2 of 12</numIndex>
-												<numIndex index="1">col-lg-2</numIndex>
-											</numIndex>
-											<numIndex index="4" type="array">
-												<numIndex index="0">3 of 12</numIndex>
-												<numIndex index="1">col-lg-3</numIndex>
-											</numIndex>
-											<numIndex index="5" type="array">
-												<numIndex index="0">4 of 12</numIndex>
-												<numIndex index="1">col-lg-4</numIndex>
-											</numIndex>
-											<numIndex index="6" type="array">
-												<numIndex index="0">5 of 12</numIndex>
-												<numIndex index="1">col-lg-5</numIndex>
-											</numIndex>
-											<numIndex index="7" type="array">
-												<numIndex index="0">6 of 12</numIndex>
-												<numIndex index="1">col-lg-6</numIndex>
-											</numIndex>
-											<numIndex index="8" type="array">
-												<numIndex index="0">7 of 12</numIndex>
-												<numIndex index="1">col-lg-7</numIndex>
-											</numIndex>
-											<numIndex index="9" type="array">
-												<numIndex index="0">8 of 12</numIndex>
-												<numIndex index="1">col-lg-8</numIndex>
-											</numIndex>
-											<numIndex index="10" type="array">
-												<numIndex index="0">9 of 12</numIndex>
-												<numIndex index="1">col-lg-9</numIndex>
-											</numIndex>
-											<numIndex index="11" type="array">
-												<numIndex index="0">10 of 12</numIndex>
-												<numIndex index="1">col-lg-10</numIndex>
-											</numIndex>
-											<numIndex index="12" type="array">
-												<numIndex index="0">11 of 12</numIndex>
-												<numIndex index="1">col-lg-11</numIndex>
-											</numIndex>
-											<numIndex index="13" type="array">
-												<numIndex index="0">12 of 12</numIndex>
-												<numIndex index="1">col-lg-12</numIndex>
-											</numIndex>
-										</items>
-										<default></default>
-								</config>
-						</TCEforms>
+					<TCEforms type="array">
+						<label>LLL:EXT:theme_t3kit/Resources/Private/Language/GridElements.xlf:column_1_lg</label>
+						<config type="array">
+							<type>select</type>
+							<items type="array">
+								<numIndex index="0" type="array">
+									<numIndex index="0">-</numIndex>
+									<numIndex index="1"></numIndex>
+								</numIndex>
+								<numIndex index="1" type="array">
+									<numIndex index="0">1 of 12</numIndex>
+									<numIndex index="1">col-lg-1</numIndex>
+								</numIndex>
+								<numIndex index="2" type="array">
+									<numIndex index="0">2 of 12</numIndex>
+									<numIndex index="1">col-lg-2</numIndex>
+								</numIndex>
+								<numIndex index="3" type="array">
+									<numIndex index="0">3 of 12</numIndex>
+									<numIndex index="1">col-lg-3</numIndex>
+								</numIndex>
+								<numIndex index="4" type="array">
+									<numIndex index="0">4 of 12</numIndex>
+									<numIndex index="1">col-lg-4</numIndex>
+								</numIndex>
+								<numIndex index="5" type="array">
+									<numIndex index="0">5 of 12</numIndex>
+									<numIndex index="1">col-lg-5</numIndex>
+								</numIndex>
+								<numIndex index="6" type="array">
+									<numIndex index="0">6 of 12</numIndex>
+									<numIndex index="1">col-lg-6</numIndex>
+								</numIndex>
+								<numIndex index="7" type="array">
+									<numIndex index="0">7 of 12</numIndex>
+									<numIndex index="1">col-lg-7</numIndex>
+								</numIndex>
+								<numIndex index="8" type="array">
+									<numIndex index="0">8 of 12</numIndex>
+									<numIndex index="1">col-lg-8</numIndex>
+								</numIndex>
+								<numIndex index="9" type="array">
+									<numIndex index="0">9 of 12</numIndex>
+									<numIndex index="1">col-lg-9</numIndex>
+								</numIndex>
+								<numIndex index="10" type="array">
+									<numIndex index="0">10 of 12</numIndex>
+									<numIndex index="1">col-lg-10</numIndex>
+								</numIndex>
+								<numIndex index="11" type="array">
+									<numIndex index="0">11 of 12</numIndex>
+									<numIndex index="1">col-lg-11</numIndex>
+								</numIndex>
+								<numIndex index="12" type="array">
+									<numIndex index="0">12 of 12</numIndex>
+									<numIndex index="1">col-lg-12</numIndex>
+								</numIndex>
+							</items>
+							<default></default>
+						</config>
+					</TCEforms>
 				</column_1_lg>
+				<column_1_xl type="array">
+					<TCEforms type="array">
+						<label>LLL:EXT:theme_t3kit/Resources/Private/Language/GridElements.xlf:column_1_xl</label>
+						<config type="array">
+							<type>select</type>
+							<items type="array">
+								<numIndex index="0" type="array">
+									<numIndex index="0">-</numIndex>
+									<numIndex index="1"></numIndex>
+								</numIndex>
+								<numIndex index="1" type="array">
+									<numIndex index="0">1 of 12</numIndex>
+									<numIndex index="1">col-xl-1</numIndex>
+								</numIndex>
+								<numIndex index="2" type="array">
+									<numIndex index="0">2 of 12</numIndex>
+									<numIndex index="1">col-xl-2</numIndex>
+								</numIndex>
+								<numIndex index="3" type="array">
+									<numIndex index="0">3 of 12</numIndex>
+									<numIndex index="1">col-xl-3</numIndex>
+								</numIndex>
+								<numIndex index="4" type="array">
+									<numIndex index="0">4 of 12</numIndex>
+									<numIndex index="1">col-xl-4</numIndex>
+								</numIndex>
+								<numIndex index="5" type="array">
+									<numIndex index="0">5 of 12</numIndex>
+									<numIndex index="1">col-xl-5</numIndex>
+								</numIndex>
+								<numIndex index="6" type="array">
+									<numIndex index="0">6 of 12</numIndex>
+									<numIndex index="1">col-xl-6</numIndex>
+								</numIndex>
+								<numIndex index="7" type="array">
+									<numIndex index="0">7 of 12</numIndex>
+									<numIndex index="1">col-xl-7</numIndex>
+								</numIndex>
+								<numIndex index="8" type="array">
+									<numIndex index="0">8 of 12</numIndex>
+									<numIndex index="1">col-xl-8</numIndex>
+								</numIndex>
+								<numIndex index="9" type="array">
+									<numIndex index="0">9 of 12</numIndex>
+									<numIndex index="1">col-xl-9</numIndex>
+								</numIndex>
+								<numIndex index="10" type="array">
+									<numIndex index="0">10 of 12</numIndex>
+									<numIndex index="1">col-xl-10</numIndex>
+								</numIndex>
+								<numIndex index="11" type="array">
+									<numIndex index="0">11 of 12</numIndex>
+									<numIndex index="1">col-xl-11</numIndex>
+								</numIndex>
+								<numIndex index="12" type="array">
+									<numIndex index="0">12 of 12</numIndex>
+									<numIndex index="1">col-xl-12</numIndex>
+								</numIndex>
+							</items>
+							<default></default>
+						</config>
+					</TCEforms>
+				</column_1_xl>
 				<column_1_layout type="array">
-						<TCEforms type="array">
-								<label>LLL:EXT:theme_t3kit/Resources/Private/Language/GridElements.xlf:column_1_layout</label>
-								<config type="array">
-										<type>select</type>
-										<items type="array">
-											<numIndex index="0" type="array">
-												<numIndex index="0">-</numIndex>
-												<numIndex index="1"></numIndex>
-											</numIndex>
-										</items>
-										<default></default>
-								</config>
-						</TCEforms>
+					<TCEforms type="array">
+						<label>LLL:EXT:theme_t3kit/Resources/Private/Language/GridElements.xlf:column_1_layout</label>
+						<config type="array">
+							<type>select</type>
+							<items type="array">
+								<numIndex index="0" type="array">
+									<numIndex index="0">-</numIndex>
+									<numIndex index="1"></numIndex>
+								</numIndex>
+							</items>
+							<default></default>
+						</config>
+					</TCEforms>
 				</column_1_layout>
 				<column_1_offset type="array">
-						<TCEforms type="array">
-								<label>LLL:EXT:theme_t3kit/Resources/Private/Language/GridElements.xlf:column_1_offset</label>
-								<config type="array">
-										<type>select</type>
-										<items type="array">
-											<numIndex index="0" type="array">
-												<numIndex index="0">-</numIndex>
-												<numIndex index="1"></numIndex>
-											</numIndex>
-											<numIndex index="1" type="array">
-												<numIndex index="0">Column offset 1 of 12 (col-md)</numIndex>
-												<numIndex index="1">col-md-offset-1</numIndex>
-											</numIndex>
-											<numIndex index="2" type="array">
-												<numIndex index="0">Column offset 2 of 12 (col-md)</numIndex>
-												<numIndex index="1">col-md-offset-2</numIndex>
-											</numIndex>
-											<numIndex index="3" type="array">
-												<numIndex index="0">Column offset 3 of 12 (col-md)</numIndex>
-												<numIndex index="1">col-md-offset-3</numIndex>
-											</numIndex>
-											<numIndex index="4" type="array">
-												<numIndex index="0">Column offset 4 of 12 (col-md)</numIndex>
-												<numIndex index="1">col-md-offset-4</numIndex>
-											</numIndex>
-											<numIndex index="5" type="array">
-												<numIndex index="0">Column offset 5 of 12 (col-md)</numIndex>
-												<numIndex index="1">col-md-offset-5</numIndex>
-											</numIndex>
-											<numIndex index="6" type="array">
-												<numIndex index="0">Column offset 6 of 12 (col-md)</numIndex>
-												<numIndex index="1">col-md-offset-6</numIndex>
-											</numIndex>
-											<numIndex index="7" type="array">
-												<numIndex index="0">Column offset 7 of 12 (col-md)</numIndex>
-												<numIndex index="1">col-md-offset-7</numIndex>
-											</numIndex>
-											<numIndex index="8" type="array">
-												<numIndex index="0">Column offset 8 of 12 (col-md)</numIndex>
-												<numIndex index="1">col-md-offset-8</numIndex>
-											</numIndex>
-											<numIndex index="9" type="array">
-												<numIndex index="0">Column offset 9 of 12 (col-md)</numIndex>
-												<numIndex index="1">col-md-offset-9</numIndex>
-											</numIndex>
-											<numIndex index="10" type="array">
-												<numIndex index="0">Column offset 10 of 12 (col-md)</numIndex>
-												<numIndex index="1">col-md-offset-10</numIndex>
-											</numIndex>
-											<numIndex index="11" type="array">
-												<numIndex index="0">Column offset 11 of 12 (col-md)</numIndex>
-												<numIndex index="1">col-md-offset-11</numIndex>
-											</numIndex>
-										</items>
-										<default></default>
-								</config>
-						</TCEforms>
+					<TCEforms type="array">
+						<label>LLL:EXT:theme_t3kit/Resources/Private/Language/GridElements.xlf:column_1_offset</label>
+						<config type="array">
+							<type>select</type>
+							<items type="array">
+								<numIndex index="0" type="array">
+									<numIndex index="0">-</numIndex>
+									<numIndex index="1"></numIndex>
+								</numIndex>
+								<numIndex index="1" type="array">
+									<numIndex index="0">Column offset 1 of 12 (col-lg)</numIndex>
+									<numIndex index="1">col-lg-offset-1</numIndex>
+								</numIndex>
+								<numIndex index="2" type="array">
+									<numIndex index="0">Column offset 2 of 12 (col-lg)</numIndex>
+									<numIndex index="1">col-lg-offset-2</numIndex>
+								</numIndex>
+								<numIndex index="3" type="array">
+									<numIndex index="0">Column offset 3 of 12 (col-lg)</numIndex>
+									<numIndex index="1">col-lg-offset-3</numIndex>
+								</numIndex>
+								<numIndex index="4" type="array">
+									<numIndex index="0">Column offset 4 of 12 (col-lg)</numIndex>
+									<numIndex index="1">col-lg-offset-4</numIndex>
+								</numIndex>
+								<numIndex index="5" type="array">
+									<numIndex index="0">Column offset 5 of 12 (col-lg)</numIndex>
+									<numIndex index="1">col-lg-offset-5</numIndex>
+								</numIndex>
+								<numIndex index="6" type="array">
+									<numIndex index="0">Column offset 6 of 12 (col-lg)</numIndex>
+									<numIndex index="1">col-lg-offset-6</numIndex>
+								</numIndex>
+								<numIndex index="7" type="array">
+									<numIndex index="0">Column offset 7 of 12 (col-lg)</numIndex>
+									<numIndex index="1">col-lg-offset-7</numIndex>
+								</numIndex>
+								<numIndex index="8" type="array">
+									<numIndex index="0">Column offset 8 of 12 (col-lg)</numIndex>
+									<numIndex index="1">col-lg-offset-8</numIndex>
+								</numIndex>
+								<numIndex index="9" type="array">
+									<numIndex index="0">Column offset 9 of 12 (col-lg)</numIndex>
+									<numIndex index="1">col-lg-offset-9</numIndex>
+								</numIndex>
+								<numIndex index="10" type="array">
+									<numIndex index="0">Column offset 10 of 12 (col-lg)</numIndex>
+									<numIndex index="1">col-lg-offset-10</numIndex>
+								</numIndex>
+								<numIndex index="11" type="array">
+									<numIndex index="0">Column offset 11 of 12 (col-lg)</numIndex>
+									<numIndex index="1">col-lg-offset-11</numIndex>
+								</numIndex>
+							</items>
+							<default></default>
+						</config>
+					</TCEforms>
 				</column_1_offset>
 				<column_1_content_wrapper>
 					<TCEforms type="array">
-								<label>LLL:EXT:theme_t3kit/Resources/Private/Language/GridElements.xlf:column_1_content_wrapper</label>
-								<config type="array">
-										<type>select</type>
-										<items type="array">
-											<numIndex index="0" type="array">
-												<numIndex index="0">-</numIndex>
-												<numIndex index="1"></numIndex>
-											</numIndex>
-										</items>
-										<default></default>
-								</config>
+						<label>LLL:EXT:theme_t3kit/Resources/Private/Language/GridElements.xlf:column_1_content_wrapper</label>
+						<config type="array">
+							<type>select</type>
+							<items type="array">
+								<numIndex index="0" type="array">
+									<numIndex index="0">-</numIndex>
+									<numIndex index="1"></numIndex>
+								</numIndex>
+							</items>
+							<default></default>
+						</config>
 					</TCEforms>
 				</column_1_content_wrapper>
 				<column_1_class>
@@ -399,361 +447,479 @@
 						</config>
 					</TCEforms>
 				</column_1_class>
+				<column_1_hidden type="array">
+					<TCEforms type="array">
+						<label>LLL:EXT:theme_t3kit/Resources/Private/Language/GridElements.xlf:column_1_hidden</label>
+						<config type="array">
+							<type>select</type>
+							<items type="array">
+								<numIndex index="0" type="array">
+									<numIndex index="0">-</numIndex>
+									<numIndex index="1"></numIndex>
+								</numIndex>
+								<numIndex index="1" type="array">
+									<numIndex index="0">xs (all sizes)</numIndex>
+									<numIndex index="1">d-none</numIndex>
+								</numIndex>
+								<numIndex index="2" type="array">
+									<numIndex index="0">sm</numIndex>
+									<numIndex index="1">d-sm-none</numIndex>
+								</numIndex>
+								<numIndex index="3" type="array">
+									<numIndex index="0">md</numIndex>
+									<numIndex index="1">d-md-none</numIndex>
+								</numIndex>
+								<numIndex index="4" type="array">
+									<numIndex index="0">lg</numIndex>
+									<numIndex index="1">d-lg-none</numIndex>
+								</numIndex>
+								<numIndex index="5" type="array">
+									<numIndex index="0">xl</numIndex>
+									<numIndex index="1">d-xl-none</numIndex>
+								</numIndex>
+							</items>
+							<default></default>
+						</config>
+					</TCEforms>
+				</column_1_hidden>
+				<column_1_visible type="array">
+					<TCEforms type="array">
+						<label>LLL:EXT:theme_t3kit/Resources/Private/Language/GridElements.xlf:column_1_visible</label>
+						<config type="array">
+							<type>select</type>
+							<items type="array">
+								<numIndex index="0" type="array">
+									<numIndex index="0">-</numIndex>
+									<numIndex index="1"></numIndex>
+								</numIndex>
+								<numIndex index="1" type="array">
+									<numIndex index="0">xs (all sizes)</numIndex>
+									<numIndex index="1">d-block</numIndex>
+								</numIndex>
+								<numIndex index="2" type="array">
+									<numIndex index="0">sm</numIndex>
+									<numIndex index="1">d-sm-block</numIndex>
+								</numIndex>
+								<numIndex index="3" type="array">
+									<numIndex index="0">md</numIndex>
+									<numIndex index="1">d-md-block</numIndex>
+								</numIndex>
+								<numIndex index="4" type="array">
+									<numIndex index="0">lg</numIndex>
+									<numIndex index="1">d-lg-block</numIndex>
+								</numIndex>
+								<numIndex index="5" type="array">
+									<numIndex index="0">xl</numIndex>
+									<numIndex index="1">d-xl-block</numIndex>
+								</numIndex>
+							</items>
+							<default></default>
+						</config>
+					</TCEforms>
+				</column_1_visible>
+
 				<column_2_xs type="array">
-						<TCEforms type="array">
-								<label>LLL:EXT:theme_t3kit/Resources/Private/Language/GridElements.xlf:column_2_xs</label>
-								<config type="array">
-										<type>select</type>
-										<items type="array">
-											<numIndex index="0" type="array">
-												<numIndex index="0">-</numIndex>
-												<numIndex index="1"></numIndex>
-											</numIndex>
-											<numIndex index="1" type="array">
-												<numIndex index="0">Hidden</numIndex>
-												<numIndex index="1">hidden-xs</numIndex>
-											</numIndex>
-											<numIndex index="2" type="array">
-												<numIndex index="0">1 of 12</numIndex>
-												<numIndex index="1">col-xs-1</numIndex>
-											</numIndex>
-											<numIndex index="3" type="array">
-												<numIndex index="0">2 of 12</numIndex>
-												<numIndex index="1">col-xs-2</numIndex>
-											</numIndex>
-											<numIndex index="4" type="array">
-												<numIndex index="0">3 of 12</numIndex>
-												<numIndex index="1">col-xs-3</numIndex>
-											</numIndex>
-											<numIndex index="5" type="array">
-												<numIndex index="0">4 of 12</numIndex>
-												<numIndex index="1">col-xs-4</numIndex>
-											</numIndex>
-											<numIndex index="6" type="array">
-												<numIndex index="0">5 of 12</numIndex>
-												<numIndex index="1">col-xs-5</numIndex>
-											</numIndex>
-											<numIndex index="7" type="array">
-												<numIndex index="0">6 of 12</numIndex>
-												<numIndex index="1">col-xs-6</numIndex>
-											</numIndex>
-											<numIndex index="8" type="array">
-												<numIndex index="0">7 of 12</numIndex>
-												<numIndex index="1">col-xs-7</numIndex>
-											</numIndex>
-											<numIndex index="9" type="array">
-												<numIndex index="0">8 of 12</numIndex>
-												<numIndex index="1">col-xs-8</numIndex>
-											</numIndex>
-											<numIndex index="10" type="array">
-												<numIndex index="0">9 of 12</numIndex>
-												<numIndex index="1">col-xs-9</numIndex>
-											</numIndex>
-											<numIndex index="11" type="array">
-												<numIndex index="0">10 of 12</numIndex>
-												<numIndex index="1">col-xs-10</numIndex>
-											</numIndex>
-											<numIndex index="12" type="array">
-												<numIndex index="0">11 of 12</numIndex>
-												<numIndex index="1">col-xs-11</numIndex>
-											</numIndex>
-											<numIndex index="13" type="array">
-												<numIndex index="0">12 of 12</numIndex>
-												<numIndex index="1">col-xs-12</numIndex>
-											</numIndex>
-										</items>
-										<default></default>
-								</config>
-						</TCEforms>
+					<TCEforms type="array">
+						<label>LLL:EXT:theme_t3kit/Resources/Private/Language/GridElements.xlf:column_2_xs</label>
+						<config type="array">
+							<type>select</type>
+							<items type="array">
+								<numIndex index="0" type="array">
+									<numIndex index="0">-</numIndex>
+									<numIndex index="1"></numIndex>
+								</numIndex>
+								<numIndex index="1" type="array">
+									<numIndex index="0">1 of 12</numIndex>
+									<numIndex index="1">col-1</numIndex>
+								</numIndex>
+								<numIndex index="2" type="array">
+									<numIndex index="0">2 of 12</numIndex>
+									<numIndex index="1">col-2</numIndex>
+								</numIndex>
+								<numIndex index="3" type="array">
+									<numIndex index="0">3 of 12</numIndex>
+									<numIndex index="1">col-3</numIndex>
+								</numIndex>
+								<numIndex index="4" type="array">
+									<numIndex index="0">4 of 12</numIndex>
+									<numIndex index="1">col-4</numIndex>
+								</numIndex>
+								<numIndex index="5" type="array">
+									<numIndex index="0">5 of 12</numIndex>
+									<numIndex index="1">col-5</numIndex>
+								</numIndex>
+								<numIndex index="6" type="array">
+									<numIndex index="0">6 of 12</numIndex>
+									<numIndex index="1">col-6</numIndex>
+								</numIndex>
+								<numIndex index="7" type="array">
+									<numIndex index="0">7 of 12</numIndex>
+									<numIndex index="1">col-7</numIndex>
+								</numIndex>
+								<numIndex index="8" type="array">
+									<numIndex index="0">8 of 12</numIndex>
+									<numIndex index="1">col-8</numIndex>
+								</numIndex>
+								<numIndex index="9" type="array">
+									<numIndex index="0">9 of 12</numIndex>
+									<numIndex index="1">col-9</numIndex>
+								</numIndex>
+								<numIndex index="10" type="array">
+									<numIndex index="0">10 of 12</numIndex>
+									<numIndex index="1">col-10</numIndex>
+								</numIndex>
+								<numIndex index="11" type="array">
+									<numIndex index="0">11 of 12</numIndex>
+									<numIndex index="1">col-11</numIndex>
+								</numIndex>
+								<numIndex index="12" type="array">
+									<numIndex index="0">12 of 12</numIndex>
+									<numIndex index="1">col-12</numIndex>
+								</numIndex>
+							</items>
+							<default></default>
+						</config>
+					</TCEforms>
 				</column_2_xs>
 				<column_2_sm type="array">
-						<TCEforms type="array">
-								<label>LLL:EXT:theme_t3kit/Resources/Private/Language/GridElements.xlf:column_2_sm</label>
-								<config type="array">
-										<type>select</type>
-										<items type="array">
-											<numIndex index="0" type="array">
-												<numIndex index="0">-</numIndex>
-												<numIndex index="1"></numIndex>
-											</numIndex>
-											<numIndex index="1" type="array">
-												<numIndex index="0">Hidden</numIndex>
-												<numIndex index="1">hidden-sm</numIndex>
-											</numIndex>
-											<numIndex index="2" type="array">
-												<numIndex index="0">1 of 12</numIndex>
-												<numIndex index="1">col-sm-1</numIndex>
-											</numIndex>
-											<numIndex index="3" type="array">
-												<numIndex index="0">2 of 12</numIndex>
-												<numIndex index="1">col-sm-2</numIndex>
-											</numIndex>
-											<numIndex index="4" type="array">
-												<numIndex index="0">3 of 12</numIndex>
-												<numIndex index="1">col-sm-3</numIndex>
-											</numIndex>
-											<numIndex index="5" type="array">
-												<numIndex index="0">4 of 12</numIndex>
-												<numIndex index="1">col-sm-4</numIndex>
-											</numIndex>
-											<numIndex index="6" type="array">
-												<numIndex index="0">5 of 12</numIndex>
-												<numIndex index="1">col-sm-5</numIndex>
-											</numIndex>
-											<numIndex index="7" type="array">
-												<numIndex index="0">6 of 12</numIndex>
-												<numIndex index="1">col-sm-6</numIndex>
-											</numIndex>
-											<numIndex index="8" type="array">
-												<numIndex index="0">7 of 12</numIndex>
-												<numIndex index="1">col-sm-7</numIndex>
-											</numIndex>
-											<numIndex index="9" type="array">
-												<numIndex index="0">8 of 12</numIndex>
-												<numIndex index="1">col-sm-8</numIndex>
-											</numIndex>
-											<numIndex index="10" type="array">
-												<numIndex index="0">9 of 12</numIndex>
-												<numIndex index="1">col-sm-9</numIndex>
-											</numIndex>
-											<numIndex index="11" type="array">
-												<numIndex index="0">10 of 12</numIndex>
-												<numIndex index="1">col-sm-10</numIndex>
-											</numIndex>
-											<numIndex index="12" type="array">
-												<numIndex index="0">11 of 12</numIndex>
-												<numIndex index="1">col-sm-11</numIndex>
-											</numIndex>
-											<numIndex index="13" type="array">
-												<numIndex index="0">12 of 12</numIndex>
-												<numIndex index="1">col-sm-12</numIndex>
-											</numIndex>
-										</items>
-										<default></default>
-								</config>
-						</TCEforms>
+					<TCEforms type="array">
+						<label>LLL:EXT:theme_t3kit/Resources/Private/Language/GridElements.xlf:column_2_sm</label>
+						<config type="array">
+							<type>select</type>
+							<items type="array">
+								<numIndex index="0" type="array">
+									<numIndex index="0">-</numIndex>
+									<numIndex index="1"></numIndex>
+								</numIndex>
+								<numIndex index="1" type="array">
+									<numIndex index="0">1 of 12</numIndex>
+									<numIndex index="1">col-sm-1</numIndex>
+								</numIndex>
+								<numIndex index="2" type="array">
+									<numIndex index="0">2 of 12</numIndex>
+									<numIndex index="1">col-sm-2</numIndex>
+								</numIndex>
+								<numIndex index="3" type="array">
+									<numIndex index="0">3 of 12</numIndex>
+									<numIndex index="1">col-sm-3</numIndex>
+								</numIndex>
+								<numIndex index="4" type="array">
+									<numIndex index="0">4 of 12</numIndex>
+									<numIndex index="1">col-sm-4</numIndex>
+								</numIndex>
+								<numIndex index="5" type="array">
+									<numIndex index="0">5 of 12</numIndex>
+									<numIndex index="1">col-sm-5</numIndex>
+								</numIndex>
+								<numIndex index="6" type="array">
+									<numIndex index="0">6 of 12</numIndex>
+									<numIndex index="1">col-sm-6</numIndex>
+								</numIndex>
+								<numIndex index="7" type="array">
+									<numIndex index="0">7 of 12</numIndex>
+									<numIndex index="1">col-sm-7</numIndex>
+								</numIndex>
+								<numIndex index="8" type="array">
+									<numIndex index="0">8 of 12</numIndex>
+									<numIndex index="1">col-sm-8</numIndex>
+								</numIndex>
+								<numIndex index="9" type="array">
+									<numIndex index="0">9 of 12</numIndex>
+									<numIndex index="1">col-sm-9</numIndex>
+								</numIndex>
+								<numIndex index="10" type="array">
+									<numIndex index="0">10 of 12</numIndex>
+									<numIndex index="1">col-sm-10</numIndex>
+								</numIndex>
+								<numIndex index="11" type="array">
+									<numIndex index="0">11 of 12</numIndex>
+									<numIndex index="1">col-sm-11</numIndex>
+								</numIndex>
+								<numIndex index="12" type="array">
+									<numIndex index="0">12 of 12</numIndex>
+									<numIndex index="1">col-sm-12</numIndex>
+								</numIndex>
+							</items>
+							<default></default>
+						</config>
+					</TCEforms>
 				</column_2_sm>
 				<column_2_md type="array">
-						<TCEforms type="array">
-								<label>LLL:EXT:theme_t3kit/Resources/Private/Language/GridElements.xlf:column_2_md</label>
-								<config type="array">
-										<type>select</type>
-										<items type="array">
-											<numIndex index="0" type="array">
-												<numIndex index="0">-</numIndex>
-												<numIndex index="1"></numIndex>
-											</numIndex>
-											<numIndex index="1" type="array">
-												<numIndex index="0">Hidden</numIndex>
-												<numIndex index="1">hidden-md</numIndex>
-											</numIndex>
-											<numIndex index="2" type="array">
-												<numIndex index="0">1 of 12</numIndex>
-												<numIndex index="1">col-md-1</numIndex>
-											</numIndex>
-											<numIndex index="3" type="array">
-												<numIndex index="0">2 of 12</numIndex>
-												<numIndex index="1">col-md-2</numIndex>
-											</numIndex>
-											<numIndex index="4" type="array">
-												<numIndex index="0">3 of 12</numIndex>
-												<numIndex index="1">col-md-3</numIndex>
-											</numIndex>
-											<numIndex index="5" type="array">
-												<numIndex index="0">4 of 12</numIndex>
-												<numIndex index="1">col-md-4</numIndex>
-											</numIndex>
-											<numIndex index="6" type="array">
-												<numIndex index="0">5 of 12</numIndex>
-												<numIndex index="1">col-md-5</numIndex>
-											</numIndex>
-											<numIndex index="7" type="array">
-												<numIndex index="0">6 of 12</numIndex>
-												<numIndex index="1">col-md-6</numIndex>
-											</numIndex>
-											<numIndex index="8" type="array">
-												<numIndex index="0">7 of 12</numIndex>
-												<numIndex index="1">col-md-7</numIndex>
-											</numIndex>
-											<numIndex index="9" type="array">
-												<numIndex index="0">8 of 12</numIndex>
-												<numIndex index="1">col-md-8</numIndex>
-											</numIndex>
-											<numIndex index="10" type="array">
-												<numIndex index="0">9 of 12</numIndex>
-												<numIndex index="1">col-md-9</numIndex>
-											</numIndex>
-											<numIndex index="11" type="array">
-												<numIndex index="0">10 of 12</numIndex>
-												<numIndex index="1">col-md-10</numIndex>
-											</numIndex>
-											<numIndex index="12" type="array">
-												<numIndex index="0">11 of 12</numIndex>
-												<numIndex index="1">col-md-11</numIndex>
-											</numIndex>
-											<numIndex index="13" type="array">
-												<numIndex index="0">12 of 12</numIndex>
-												<numIndex index="1">col-md-12</numIndex>
-											</numIndex>
-										</items>
-										<default>col-md-4</default>
-								</config>
-						</TCEforms>
+					<TCEforms type="array">
+						<label>LLL:EXT:theme_t3kit/Resources/Private/Language/GridElements.xlf:column_2_md</label>
+						<config type="array">
+							<type>select</type>
+							<items type="array">
+								<numIndex index="0" type="array">
+									<numIndex index="0">-</numIndex>
+									<numIndex index="1"></numIndex>
+								</numIndex>
+								<numIndex index="1" type="array">
+									<numIndex index="0">1 of 12</numIndex>
+									<numIndex index="1">col-md-1</numIndex>
+								</numIndex>
+								<numIndex index="2" type="array">
+									<numIndex index="0">2 of 12</numIndex>
+									<numIndex index="1">col-md-2</numIndex>
+								</numIndex>
+								<numIndex index="3" type="array">
+									<numIndex index="0">3 of 12</numIndex>
+									<numIndex index="1">col-md-3</numIndex>
+								</numIndex>
+								<numIndex index="4" type="array">
+									<numIndex index="0">4 of 12</numIndex>
+									<numIndex index="1">col-md-4</numIndex>
+								</numIndex>
+								<numIndex index="5" type="array">
+									<numIndex index="0">5 of 12</numIndex>
+									<numIndex index="1">col-md-5</numIndex>
+								</numIndex>
+								<numIndex index="6" type="array">
+									<numIndex index="0">6 of 12</numIndex>
+									<numIndex index="1">col-md-6</numIndex>
+								</numIndex>
+								<numIndex index="7" type="array">
+									<numIndex index="0">7 of 12</numIndex>
+									<numIndex index="1">col-md-7</numIndex>
+								</numIndex>
+								<numIndex index="8" type="array">
+									<numIndex index="0">8 of 12</numIndex>
+									<numIndex index="1">col-md-8</numIndex>
+								</numIndex>
+								<numIndex index="9" type="array">
+									<numIndex index="0">9 of 12</numIndex>
+									<numIndex index="1">col-md-9</numIndex>
+								</numIndex>
+								<numIndex index="10" type="array">
+									<numIndex index="0">10 of 12</numIndex>
+									<numIndex index="1">col-md-10</numIndex>
+								</numIndex>
+								<numIndex index="11" type="array">
+									<numIndex index="0">11 of 12</numIndex>
+									<numIndex index="1">col-md-11</numIndex>
+								</numIndex>
+								<numIndex index="12" type="array">
+									<numIndex index="0">12 of 12</numIndex>
+									<numIndex index="1">col-md-12</numIndex>
+								</numIndex>
+							</items>
+							<default>col-md-12</default>
+						</config>
+					</TCEforms>
 				</column_2_md>
 				<column_2_lg type="array">
-						<TCEforms type="array">
-								<label>LLL:EXT:theme_t3kit/Resources/Private/Language/GridElements.xlf:column_2_lg</label>
-								<config type="array">
-										<type>select</type>
-										<items type="array">
-											<numIndex index="0" type="array">
-												<numIndex index="0">-</numIndex>
-												<numIndex index="1"></numIndex>
-											</numIndex>
-											<numIndex index="1" type="array">
-												<numIndex index="0">Hidden</numIndex>
-												<numIndex index="1">hidden-lg</numIndex>
-											</numIndex>
-											<numIndex index="2" type="array">
-												<numIndex index="0">1 of 12</numIndex>
-												<numIndex index="1">col-lg-1</numIndex>
-											</numIndex>
-											<numIndex index="3" type="array">
-												<numIndex index="0">2 of 12</numIndex>
-												<numIndex index="1">col-lg-2</numIndex>
-											</numIndex>
-											<numIndex index="4" type="array">
-												<numIndex index="0">3 of 12</numIndex>
-												<numIndex index="1">col-lg-3</numIndex>
-											</numIndex>
-											<numIndex index="5" type="array">
-												<numIndex index="0">4 of 12</numIndex>
-												<numIndex index="1">col-lg-4</numIndex>
-											</numIndex>
-											<numIndex index="6" type="array">
-												<numIndex index="0">5 of 12</numIndex>
-												<numIndex index="1">col-lg-5</numIndex>
-											</numIndex>
-											<numIndex index="7" type="array">
-												<numIndex index="0">6 of 12</numIndex>
-												<numIndex index="1">col-lg-6</numIndex>
-											</numIndex>
-											<numIndex index="8" type="array">
-												<numIndex index="0">7 of 12</numIndex>
-												<numIndex index="1">col-lg-7</numIndex>
-											</numIndex>
-											<numIndex index="9" type="array">
-												<numIndex index="0">8 of 12</numIndex>
-												<numIndex index="1">col-lg-8</numIndex>
-											</numIndex>
-											<numIndex index="10" type="array">
-												<numIndex index="0">9 of 12</numIndex>
-												<numIndex index="1">col-lg-9</numIndex>
-											</numIndex>
-											<numIndex index="11" type="array">
-												<numIndex index="0">10 of 12</numIndex>
-												<numIndex index="1">col-lg-10</numIndex>
-											</numIndex>
-											<numIndex index="12" type="array">
-												<numIndex index="0">11 of 12</numIndex>
-												<numIndex index="1">col-lg-11</numIndex>
-											</numIndex>
-											<numIndex index="13" type="array">
-												<numIndex index="0">12 of 12</numIndex>
-												<numIndex index="1">col-lg-12</numIndex>
-											</numIndex>
-										</items>
-										<default></default>
-								</config>
-						</TCEforms>
+					<TCEforms type="array">
+						<label>LLL:EXT:theme_t3kit/Resources/Private/Language/GridElements.xlf:column_2_lg</label>
+						<config type="array">
+							<type>select</type>
+							<items type="array">
+								<numIndex index="0" type="array">
+									<numIndex index="0">-</numIndex>
+									<numIndex index="1"></numIndex>
+								</numIndex>
+								<numIndex index="1" type="array">
+									<numIndex index="0">1 of 12</numIndex>
+									<numIndex index="1">col-lg-1</numIndex>
+								</numIndex>
+								<numIndex index="2" type="array">
+									<numIndex index="0">2 of 12</numIndex>
+									<numIndex index="1">col-lg-2</numIndex>
+								</numIndex>
+								<numIndex index="3" type="array">
+									<numIndex index="0">3 of 12</numIndex>
+									<numIndex index="1">col-lg-3</numIndex>
+								</numIndex>
+								<numIndex index="4" type="array">
+									<numIndex index="0">4 of 12</numIndex>
+									<numIndex index="1">col-lg-4</numIndex>
+								</numIndex>
+								<numIndex index="5" type="array">
+									<numIndex index="0">5 of 12</numIndex>
+									<numIndex index="1">col-lg-5</numIndex>
+								</numIndex>
+								<numIndex index="6" type="array">
+									<numIndex index="0">6 of 12</numIndex>
+									<numIndex index="1">col-lg-6</numIndex>
+								</numIndex>
+								<numIndex index="7" type="array">
+									<numIndex index="0">7 of 12</numIndex>
+									<numIndex index="1">col-lg-7</numIndex>
+								</numIndex>
+								<numIndex index="8" type="array">
+									<numIndex index="0">8 of 12</numIndex>
+									<numIndex index="1">col-lg-8</numIndex>
+								</numIndex>
+								<numIndex index="9" type="array">
+									<numIndex index="0">9 of 12</numIndex>
+									<numIndex index="1">col-lg-9</numIndex>
+								</numIndex>
+								<numIndex index="10" type="array">
+									<numIndex index="0">10 of 12</numIndex>
+									<numIndex index="1">col-lg-10</numIndex>
+								</numIndex>
+								<numIndex index="11" type="array">
+									<numIndex index="0">11 of 12</numIndex>
+									<numIndex index="1">col-lg-11</numIndex>
+								</numIndex>
+								<numIndex index="12" type="array">
+									<numIndex index="0">12 of 12</numIndex>
+									<numIndex index="1">col-lg-12</numIndex>
+								</numIndex>
+							</items>
+							<default></default>
+						</config>
+					</TCEforms>
 				</column_2_lg>
+				<column_2_xl type="array">
+					<TCEforms type="array">
+						<label>LLL:EXT:theme_t3kit/Resources/Private/Language/GridElements.xlf:column_2_xl</label>
+						<config type="array">
+							<type>select</type>
+							<items type="array">
+								<numIndex index="0" type="array">
+									<numIndex index="0">-</numIndex>
+									<numIndex index="1"></numIndex>
+								</numIndex>
+								<numIndex index="1" type="array">
+									<numIndex index="0">1 of 12</numIndex>
+									<numIndex index="1">col-xl-1</numIndex>
+								</numIndex>
+								<numIndex index="2" type="array">
+									<numIndex index="0">2 of 12</numIndex>
+									<numIndex index="1">col-xl-2</numIndex>
+								</numIndex>
+								<numIndex index="3" type="array">
+									<numIndex index="0">3 of 12</numIndex>
+									<numIndex index="1">col-xl-3</numIndex>
+								</numIndex>
+								<numIndex index="4" type="array">
+									<numIndex index="0">4 of 12</numIndex>
+									<numIndex index="1">col-xl-4</numIndex>
+								</numIndex>
+								<numIndex index="5" type="array">
+									<numIndex index="0">5 of 12</numIndex>
+									<numIndex index="1">col-xl-5</numIndex>
+								</numIndex>
+								<numIndex index="6" type="array">
+									<numIndex index="0">6 of 12</numIndex>
+									<numIndex index="1">col-xl-6</numIndex>
+								</numIndex>
+								<numIndex index="7" type="array">
+									<numIndex index="0">7 of 12</numIndex>
+									<numIndex index="1">col-xl-7</numIndex>
+								</numIndex>
+								<numIndex index="8" type="array">
+									<numIndex index="0">8 of 12</numIndex>
+									<numIndex index="1">col-xl-8</numIndex>
+								</numIndex>
+								<numIndex index="9" type="array">
+									<numIndex index="0">9 of 12</numIndex>
+									<numIndex index="1">col-xl-9</numIndex>
+								</numIndex>
+								<numIndex index="10" type="array">
+									<numIndex index="0">10 of 12</numIndex>
+									<numIndex index="1">col-xl-10</numIndex>
+								</numIndex>
+								<numIndex index="11" type="array">
+									<numIndex index="0">11 of 12</numIndex>
+									<numIndex index="1">col-xl-11</numIndex>
+								</numIndex>
+								<numIndex index="12" type="array">
+									<numIndex index="0">12 of 12</numIndex>
+									<numIndex index="1">col-xl-12</numIndex>
+								</numIndex>
+							</items>
+							<default></default>
+						</config>
+					</TCEforms>
+				</column_2_xl>
 				<column_2_layout type="array">
-						<TCEforms type="array">
-								<label>LLL:EXT:theme_t3kit/Resources/Private/Language/GridElements.xlf:column_2_layout</label>
-								<config type="array">
-										<type>select</type>
-										<items type="array">
-											<numIndex index="0" type="array">
-												<numIndex index="0">-</numIndex>
-												<numIndex index="1"></numIndex>
-											</numIndex>
-										</items>
-										<default></default>
-								</config>
-						</TCEforms>
+					<TCEforms type="array">
+						<label>LLL:EXT:theme_t3kit/Resources/Private/Language/GridElements.xlf:column_2_layout</label>
+						<config type="array">
+							<type>select</type>
+							<items type="array">
+								<numIndex index="0" type="array">
+									<numIndex index="0">-</numIndex>
+									<numIndex index="1"></numIndex>
+								</numIndex>
+							</items>
+							<default></default>
+						</config>
+					</TCEforms>
 				</column_2_layout>
 				<column_2_offset type="array">
-						<TCEforms type="array">
-								<label>LLL:EXT:theme_t3kit/Resources/Private/Language/GridElements.xlf:column_2_offset</label>
-								<config type="array">
-										<type>select</type>
-										<items type="array">
-											<numIndex index="0" type="array">
-												<numIndex index="0">-</numIndex>
-												<numIndex index="1"></numIndex>
-											</numIndex>
-											<numIndex index="1" type="array">
-												<numIndex index="0">Column offset 1 of 12 (col-md)</numIndex>
-												<numIndex index="1">col-md-offset-1</numIndex>
-											</numIndex>
-											<numIndex index="2" type="array">
-												<numIndex index="0">Column offset 2 of 12 (col-md)</numIndex>
-												<numIndex index="1">col-md-offset-2</numIndex>
-											</numIndex>
-											<numIndex index="3" type="array">
-												<numIndex index="0">Column offset 3 of 12 (col-md)</numIndex>
-												<numIndex index="1">col-md-offset-3</numIndex>
-											</numIndex>
-											<numIndex index="4" type="array">
-												<numIndex index="0">Column offset 4 of 12 (col-md)</numIndex>
-												<numIndex index="1">col-md-offset-4</numIndex>
-											</numIndex>
-											<numIndex index="5" type="array">
-												<numIndex index="0">Column offset 5 of 12 (col-md)</numIndex>
-												<numIndex index="1">col-md-offset-5</numIndex>
-											</numIndex>
-											<numIndex index="6" type="array">
-												<numIndex index="0">Column offset 6 of 12 (col-md)</numIndex>
-												<numIndex index="1">col-md-offset-6</numIndex>
-											</numIndex>
-											<numIndex index="7" type="array">
-												<numIndex index="0">Column offset 7 of 12 (col-md)</numIndex>
-												<numIndex index="1">col-md-offset-7</numIndex>
-											</numIndex>
-											<numIndex index="8" type="array">
-												<numIndex index="0">Column offset 8 of 12 (col-md)</numIndex>
-												<numIndex index="1">col-md-offset-8</numIndex>
-											</numIndex>
-											<numIndex index="9" type="array">
-												<numIndex index="0">Column offset 9 of 12 (col-md)</numIndex>
-												<numIndex index="1">col-md-offset-9</numIndex>
-											</numIndex>
-											<numIndex index="10" type="array">
-												<numIndex index="0">Column offset 10 of 12 (col-md)</numIndex>
-												<numIndex index="1">col-md-offset-10</numIndex>
-											</numIndex>
-											<numIndex index="11" type="array">
-												<numIndex index="0">Column offset 11 of 12 (col-md)</numIndex>
-												<numIndex index="1">col-md-offset-11</numIndex>
-											</numIndex>
-										</items>
-										<default></default>
-								</config>
-						</TCEforms>
+					<TCEforms type="array">
+						<label>LLL:EXT:theme_t3kit/Resources/Private/Language/GridElements.xlf:column_2_offset</label>
+						<config type="array">
+							<type>select</type>
+							<items type="array">
+								<numIndex index="0" type="array">
+									<numIndex index="0">-</numIndex>
+									<numIndex index="1"></numIndex>
+								</numIndex>
+								<numIndex index="1" type="array">
+									<numIndex index="0">Column offset 1 of 12 (col-lg)</numIndex>
+									<numIndex index="1">col-lg-offset-1</numIndex>
+								</numIndex>
+								<numIndex index="2" type="array">
+									<numIndex index="0">Column offset 2 of 12 (col-lg)</numIndex>
+									<numIndex index="1">col-lg-offset-2</numIndex>
+								</numIndex>
+								<numIndex index="3" type="array">
+									<numIndex index="0">Column offset 3 of 12 (col-lg)</numIndex>
+									<numIndex index="1">col-lg-offset-3</numIndex>
+								</numIndex>
+								<numIndex index="4" type="array">
+									<numIndex index="0">Column offset 4 of 12 (col-lg)</numIndex>
+									<numIndex index="1">col-lg-offset-4</numIndex>
+								</numIndex>
+								<numIndex index="5" type="array">
+									<numIndex index="0">Column offset 5 of 12 (col-lg)</numIndex>
+									<numIndex index="1">col-lg-offset-5</numIndex>
+								</numIndex>
+								<numIndex index="6" type="array">
+									<numIndex index="0">Column offset 6 of 12 (col-lg)</numIndex>
+									<numIndex index="1">col-lg-offset-6</numIndex>
+								</numIndex>
+								<numIndex index="7" type="array">
+									<numIndex index="0">Column offset 7 of 12 (col-lg)</numIndex>
+									<numIndex index="1">col-lg-offset-7</numIndex>
+								</numIndex>
+								<numIndex index="8" type="array">
+									<numIndex index="0">Column offset 8 of 12 (col-lg)</numIndex>
+									<numIndex index="1">col-lg-offset-8</numIndex>
+								</numIndex>
+								<numIndex index="9" type="array">
+									<numIndex index="0">Column offset 9 of 12 (col-lg)</numIndex>
+									<numIndex index="1">col-lg-offset-9</numIndex>
+								</numIndex>
+								<numIndex index="10" type="array">
+									<numIndex index="0">Column offset 10 of 12 (col-lg)</numIndex>
+									<numIndex index="1">col-lg-offset-10</numIndex>
+								</numIndex>
+								<numIndex index="11" type="array">
+									<numIndex index="0">Column offset 11 of 12 (col-lg)</numIndex>
+									<numIndex index="1">col-lg-offset-11</numIndex>
+								</numIndex>
+							</items>
+							<default></default>
+						</config>
+					</TCEforms>
 				</column_2_offset>
 				<column_2_content_wrapper>
 					<TCEforms type="array">
-								<label>LLL:EXT:theme_t3kit/Resources/Private/Language/GridElements.xlf:column_2_content_wrapper</label>
-								<config type="array">
-										<type>select</type>
-										<items type="array">
-											<numIndex index="0" type="array">
-												<numIndex index="0">-</numIndex>
-												<numIndex index="1"></numIndex>
-											</numIndex>
-										</items>
-										<default></default>
-								</config>
+						<label>LLL:EXT:theme_t3kit/Resources/Private/Language/GridElements.xlf:column_2_content_wrapper</label>
+						<config type="array">
+							<type>select</type>
+							<items type="array">
+								<numIndex index="0" type="array">
+									<numIndex index="0">-</numIndex>
+									<numIndex index="1"></numIndex>
+								</numIndex>
+							</items>
+							<default></default>
+						</config>
 					</TCEforms>
 				</column_2_content_wrapper>
 				<column_2_class>
@@ -765,361 +931,479 @@
 						</config>
 					</TCEforms>
 				</column_2_class>
+				<column_2_hidden type="array">
+					<TCEforms type="array">
+						<label>LLL:EXT:theme_t3kit/Resources/Private/Language/GridElements.xlf:column_2_hidden</label>
+						<config type="array">
+							<type>select</type>
+							<items type="array">
+								<numIndex index="0" type="array">
+									<numIndex index="0">-</numIndex>
+									<numIndex index="1"></numIndex>
+								</numIndex>
+								<numIndex index="1" type="array">
+									<numIndex index="0">xs (all sizes)</numIndex>
+									<numIndex index="1">d-none</numIndex>
+								</numIndex>
+								<numIndex index="2" type="array">
+									<numIndex index="0">sm</numIndex>
+									<numIndex index="1">d-sm-none</numIndex>
+								</numIndex>
+								<numIndex index="3" type="array">
+									<numIndex index="0">md</numIndex>
+									<numIndex index="1">d-md-none</numIndex>
+								</numIndex>
+								<numIndex index="4" type="array">
+									<numIndex index="0">lg</numIndex>
+									<numIndex index="1">d-lg-none</numIndex>
+								</numIndex>
+								<numIndex index="5" type="array">
+									<numIndex index="0">xl</numIndex>
+									<numIndex index="1">d-xl-none</numIndex>
+								</numIndex>
+							</items>
+							<default></default>
+						</config>
+					</TCEforms>
+				</column_2_hidden>
+				<column_2_visible type="array">
+					<TCEforms type="array">
+						<label>LLL:EXT:theme_t3kit/Resources/Private/Language/GridElements.xlf:column_2_visible</label>
+						<config type="array">
+							<type>select</type>
+							<items type="array">
+								<numIndex index="0" type="array">
+									<numIndex index="0">-</numIndex>
+									<numIndex index="1"></numIndex>
+								</numIndex>
+								<numIndex index="1" type="array">
+									<numIndex index="0">xs (all sizes)</numIndex>
+									<numIndex index="1">d-block</numIndex>
+								</numIndex>
+								<numIndex index="2" type="array">
+									<numIndex index="0">sm</numIndex>
+									<numIndex index="1">d-sm-block</numIndex>
+								</numIndex>
+								<numIndex index="3" type="array">
+									<numIndex index="0">md</numIndex>
+									<numIndex index="1">d-md-block</numIndex>
+								</numIndex>
+								<numIndex index="4" type="array">
+									<numIndex index="0">lg</numIndex>
+									<numIndex index="1">d-lg-block</numIndex>
+								</numIndex>
+								<numIndex index="5" type="array">
+									<numIndex index="0">xl</numIndex>
+									<numIndex index="1">d-xl-block</numIndex>
+								</numIndex>
+							</items>
+							<default></default>
+						</config>
+					</TCEforms>
+				</column_2_visible>
+
 				<column_3_xs type="array">
-						<TCEforms type="array">
-								<label>LLL:EXT:theme_t3kit/Resources/Private/Language/GridElements.xlf:column_3_xs</label>
-								<config type="array">
-										<type>select</type>
-										<items type="array">
-											<numIndex index="0" type="array">
-												<numIndex index="0">-</numIndex>
-												<numIndex index="1"></numIndex>
-											</numIndex>
-											<numIndex index="1" type="array">
-												<numIndex index="0">Hidden</numIndex>
-												<numIndex index="1">hidden-xs</numIndex>
-											</numIndex>
-											<numIndex index="2" type="array">
-												<numIndex index="0">1 of 12</numIndex>
-												<numIndex index="1">col-xs-1</numIndex>
-											</numIndex>
-											<numIndex index="3" type="array">
-												<numIndex index="0">2 of 12</numIndex>
-												<numIndex index="1">col-xs-2</numIndex>
-											</numIndex>
-											<numIndex index="4" type="array">
-												<numIndex index="0">3 of 12</numIndex>
-												<numIndex index="1">col-xs-3</numIndex>
-											</numIndex>
-											<numIndex index="5" type="array">
-												<numIndex index="0">4 of 12</numIndex>
-												<numIndex index="1">col-xs-4</numIndex>
-											</numIndex>
-											<numIndex index="6" type="array">
-												<numIndex index="0">5 of 12</numIndex>
-												<numIndex index="1">col-xs-5</numIndex>
-											</numIndex>
-											<numIndex index="7" type="array">
-												<numIndex index="0">6 of 12</numIndex>
-												<numIndex index="1">col-xs-6</numIndex>
-											</numIndex>
-											<numIndex index="8" type="array">
-												<numIndex index="0">7 of 12</numIndex>
-												<numIndex index="1">col-xs-7</numIndex>
-											</numIndex>
-											<numIndex index="9" type="array">
-												<numIndex index="0">8 of 12</numIndex>
-												<numIndex index="1">col-xs-8</numIndex>
-											</numIndex>
-											<numIndex index="10" type="array">
-												<numIndex index="0">9 of 12</numIndex>
-												<numIndex index="1">col-xs-9</numIndex>
-											</numIndex>
-											<numIndex index="11" type="array">
-												<numIndex index="0">10 of 12</numIndex>
-												<numIndex index="1">col-xs-10</numIndex>
-											</numIndex>
-											<numIndex index="12" type="array">
-												<numIndex index="0">11 of 12</numIndex>
-												<numIndex index="1">col-xs-11</numIndex>
-											</numIndex>
-											<numIndex index="13" type="array">
-												<numIndex index="0">12 of 12</numIndex>
-												<numIndex index="1">col-xs-12</numIndex>
-											</numIndex>
-										</items>
-										<default></default>
-								</config>
-						</TCEforms>
+					<TCEforms type="array">
+						<label>LLL:EXT:theme_t3kit/Resources/Private/Language/GridElements.xlf:column_3_xs</label>
+						<config type="array">
+							<type>select</type>
+							<items type="array">
+								<numIndex index="0" type="array">
+									<numIndex index="0">-</numIndex>
+									<numIndex index="1"></numIndex>
+								</numIndex>
+								<numIndex index="1" type="array">
+									<numIndex index="0">1 of 12</numIndex>
+									<numIndex index="1">col-1</numIndex>
+								</numIndex>
+								<numIndex index="2" type="array">
+									<numIndex index="0">2 of 12</numIndex>
+									<numIndex index="1">col-2</numIndex>
+								</numIndex>
+								<numIndex index="3" type="array">
+									<numIndex index="0">3 of 12</numIndex>
+									<numIndex index="1">col-3</numIndex>
+								</numIndex>
+								<numIndex index="4" type="array">
+									<numIndex index="0">4 of 12</numIndex>
+									<numIndex index="1">col-4</numIndex>
+								</numIndex>
+								<numIndex index="5" type="array">
+									<numIndex index="0">5 of 12</numIndex>
+									<numIndex index="1">col-5</numIndex>
+								</numIndex>
+								<numIndex index="6" type="array">
+									<numIndex index="0">6 of 12</numIndex>
+									<numIndex index="1">col-6</numIndex>
+								</numIndex>
+								<numIndex index="7" type="array">
+									<numIndex index="0">7 of 12</numIndex>
+									<numIndex index="1">col-7</numIndex>
+								</numIndex>
+								<numIndex index="8" type="array">
+									<numIndex index="0">8 of 12</numIndex>
+									<numIndex index="1">col-8</numIndex>
+								</numIndex>
+								<numIndex index="9" type="array">
+									<numIndex index="0">9 of 12</numIndex>
+									<numIndex index="1">col-9</numIndex>
+								</numIndex>
+								<numIndex index="10" type="array">
+									<numIndex index="0">10 of 12</numIndex>
+									<numIndex index="1">col-10</numIndex>
+								</numIndex>
+								<numIndex index="11" type="array">
+									<numIndex index="0">11 of 12</numIndex>
+									<numIndex index="1">col-11</numIndex>
+								</numIndex>
+								<numIndex index="12" type="array">
+									<numIndex index="0">12 of 12</numIndex>
+									<numIndex index="1">col-12</numIndex>
+								</numIndex>
+							</items>
+							<default></default>
+						</config>
+					</TCEforms>
 				</column_3_xs>
 				<column_3_sm type="array">
-						<TCEforms type="array">
-								<label>LLL:EXT:theme_t3kit/Resources/Private/Language/GridElements.xlf:column_3_sm</label>
-								<config type="array">
-										<type>select</type>
-										<items type="array">
-											<numIndex index="0" type="array">
-												<numIndex index="0">-</numIndex>
-												<numIndex index="1"></numIndex>
-											</numIndex>
-											<numIndex index="1" type="array">
-												<numIndex index="0">Hidden</numIndex>
-												<numIndex index="1">hidden-sm</numIndex>
-											</numIndex>
-											<numIndex index="2" type="array">
-												<numIndex index="0">1 of 12</numIndex>
-												<numIndex index="1">col-sm-1</numIndex>
-											</numIndex>
-											<numIndex index="3" type="array">
-												<numIndex index="0">2 of 12</numIndex>
-												<numIndex index="1">col-sm-2</numIndex>
-											</numIndex>
-											<numIndex index="4" type="array">
-												<numIndex index="0">3 of 12</numIndex>
-												<numIndex index="1">col-sm-3</numIndex>
-											</numIndex>
-											<numIndex index="5" type="array">
-												<numIndex index="0">4 of 12</numIndex>
-												<numIndex index="1">col-sm-4</numIndex>
-											</numIndex>
-											<numIndex index="6" type="array">
-												<numIndex index="0">5 of 12</numIndex>
-												<numIndex index="1">col-sm-5</numIndex>
-											</numIndex>
-											<numIndex index="7" type="array">
-												<numIndex index="0">6 of 12</numIndex>
-												<numIndex index="1">col-sm-6</numIndex>
-											</numIndex>
-											<numIndex index="8" type="array">
-												<numIndex index="0">7 of 12</numIndex>
-												<numIndex index="1">col-sm-7</numIndex>
-											</numIndex>
-											<numIndex index="9" type="array">
-												<numIndex index="0">8 of 12</numIndex>
-												<numIndex index="1">col-sm-8</numIndex>
-											</numIndex>
-											<numIndex index="10" type="array">
-												<numIndex index="0">9 of 12</numIndex>
-												<numIndex index="1">col-sm-9</numIndex>
-											</numIndex>
-											<numIndex index="11" type="array">
-												<numIndex index="0">10 of 12</numIndex>
-												<numIndex index="1">col-sm-10</numIndex>
-											</numIndex>
-											<numIndex index="12" type="array">
-												<numIndex index="0">11 of 12</numIndex>
-												<numIndex index="1">col-sm-11</numIndex>
-											</numIndex>
-											<numIndex index="13" type="array">
-												<numIndex index="0">12 of 12</numIndex>
-												<numIndex index="1">col-sm-12</numIndex>
-											</numIndex>
-										</items>
-										<default></default>
-								</config>
-						</TCEforms>
+					<TCEforms type="array">
+						<label>LLL:EXT:theme_t3kit/Resources/Private/Language/GridElements.xlf:column_3_sm</label>
+						<config type="array">
+							<type>select</type>
+							<items type="array">
+								<numIndex index="0" type="array">
+									<numIndex index="0">-</numIndex>
+									<numIndex index="1"></numIndex>
+								</numIndex>
+								<numIndex index="1" type="array">
+									<numIndex index="0">1 of 12</numIndex>
+									<numIndex index="1">col-sm-1</numIndex>
+								</numIndex>
+								<numIndex index="2" type="array">
+									<numIndex index="0">2 of 12</numIndex>
+									<numIndex index="1">col-sm-2</numIndex>
+								</numIndex>
+								<numIndex index="3" type="array">
+									<numIndex index="0">3 of 12</numIndex>
+									<numIndex index="1">col-sm-3</numIndex>
+								</numIndex>
+								<numIndex index="4" type="array">
+									<numIndex index="0">4 of 12</numIndex>
+									<numIndex index="1">col-sm-4</numIndex>
+								</numIndex>
+								<numIndex index="5" type="array">
+									<numIndex index="0">5 of 12</numIndex>
+									<numIndex index="1">col-sm-5</numIndex>
+								</numIndex>
+								<numIndex index="6" type="array">
+									<numIndex index="0">6 of 12</numIndex>
+									<numIndex index="1">col-sm-6</numIndex>
+								</numIndex>
+								<numIndex index="7" type="array">
+									<numIndex index="0">7 of 12</numIndex>
+									<numIndex index="1">col-sm-7</numIndex>
+								</numIndex>
+								<numIndex index="8" type="array">
+									<numIndex index="0">8 of 12</numIndex>
+									<numIndex index="1">col-sm-8</numIndex>
+								</numIndex>
+								<numIndex index="9" type="array">
+									<numIndex index="0">9 of 12</numIndex>
+									<numIndex index="1">col-sm-9</numIndex>
+								</numIndex>
+								<numIndex index="10" type="array">
+									<numIndex index="0">10 of 12</numIndex>
+									<numIndex index="1">col-sm-10</numIndex>
+								</numIndex>
+								<numIndex index="11" type="array">
+									<numIndex index="0">11 of 12</numIndex>
+									<numIndex index="1">col-sm-11</numIndex>
+								</numIndex>
+								<numIndex index="12" type="array">
+									<numIndex index="0">12 of 12</numIndex>
+									<numIndex index="1">col-sm-12</numIndex>
+								</numIndex>
+							</items>
+							<default></default>
+						</config>
+					</TCEforms>
 				</column_3_sm>
 				<column_3_md type="array">
-						<TCEforms type="array">
-								<label>LLL:EXT:theme_t3kit/Resources/Private/Language/GridElements.xlf:column_3_md</label>
-								<config type="array">
-										<type>select</type>
-										<items type="array">
-											<numIndex index="0" type="array">
-												<numIndex index="0">-</numIndex>
-												<numIndex index="1"></numIndex>
-											</numIndex>
-											<numIndex index="1" type="array">
-												<numIndex index="0">Hidden</numIndex>
-												<numIndex index="1">hidden-md</numIndex>
-											</numIndex>
-											<numIndex index="2" type="array">
-												<numIndex index="0">1 of 12</numIndex>
-												<numIndex index="1">col-md-1</numIndex>
-											</numIndex>
-											<numIndex index="3" type="array">
-												<numIndex index="0">2 of 12</numIndex>
-												<numIndex index="1">col-md-2</numIndex>
-											</numIndex>
-											<numIndex index="4" type="array">
-												<numIndex index="0">3 of 12</numIndex>
-												<numIndex index="1">col-md-3</numIndex>
-											</numIndex>
-											<numIndex index="5" type="array">
-												<numIndex index="0">4 of 12</numIndex>
-												<numIndex index="1">col-md-4</numIndex>
-											</numIndex>
-											<numIndex index="6" type="array">
-												<numIndex index="0">5 of 12</numIndex>
-												<numIndex index="1">col-md-5</numIndex>
-											</numIndex>
-											<numIndex index="7" type="array">
-												<numIndex index="0">6 of 12</numIndex>
-												<numIndex index="1">col-md-6</numIndex>
-											</numIndex>
-											<numIndex index="8" type="array">
-												<numIndex index="0">7 of 12</numIndex>
-												<numIndex index="1">col-md-7</numIndex>
-											</numIndex>
-											<numIndex index="9" type="array">
-												<numIndex index="0">8 of 12</numIndex>
-												<numIndex index="1">col-md-8</numIndex>
-											</numIndex>
-											<numIndex index="10" type="array">
-												<numIndex index="0">9 of 12</numIndex>
-												<numIndex index="1">col-md-9</numIndex>
-											</numIndex>
-											<numIndex index="11" type="array">
-												<numIndex index="0">10 of 12</numIndex>
-												<numIndex index="1">col-md-10</numIndex>
-											</numIndex>
-											<numIndex index="12" type="array">
-												<numIndex index="0">11 of 12</numIndex>
-												<numIndex index="1">col-md-11</numIndex>
-											</numIndex>
-											<numIndex index="13" type="array">
-												<numIndex index="0">12 of 12</numIndex>
-												<numIndex index="1">col-md-12</numIndex>
-											</numIndex>
-										</items>
-										<default>col-md-4</default>
-								</config>
-						</TCEforms>
+					<TCEforms type="array">
+						<label>LLL:EXT:theme_t3kit/Resources/Private/Language/GridElements.xlf:column_3_md</label>
+						<config type="array">
+							<type>select</type>
+							<items type="array">
+								<numIndex index="0" type="array">
+									<numIndex index="0">-</numIndex>
+									<numIndex index="1"></numIndex>
+								</numIndex>
+								<numIndex index="1" type="array">
+									<numIndex index="0">1 of 12</numIndex>
+									<numIndex index="1">col-md-1</numIndex>
+								</numIndex>
+								<numIndex index="2" type="array">
+									<numIndex index="0">2 of 12</numIndex>
+									<numIndex index="1">col-md-2</numIndex>
+								</numIndex>
+								<numIndex index="3" type="array">
+									<numIndex index="0">3 of 12</numIndex>
+									<numIndex index="1">col-md-3</numIndex>
+								</numIndex>
+								<numIndex index="4" type="array">
+									<numIndex index="0">4 of 12</numIndex>
+									<numIndex index="1">col-md-4</numIndex>
+								</numIndex>
+								<numIndex index="5" type="array">
+									<numIndex index="0">5 of 12</numIndex>
+									<numIndex index="1">col-md-5</numIndex>
+								</numIndex>
+								<numIndex index="6" type="array">
+									<numIndex index="0">6 of 12</numIndex>
+									<numIndex index="1">col-md-6</numIndex>
+								</numIndex>
+								<numIndex index="7" type="array">
+									<numIndex index="0">7 of 12</numIndex>
+									<numIndex index="1">col-md-7</numIndex>
+								</numIndex>
+								<numIndex index="8" type="array">
+									<numIndex index="0">8 of 12</numIndex>
+									<numIndex index="1">col-md-8</numIndex>
+								</numIndex>
+								<numIndex index="9" type="array">
+									<numIndex index="0">9 of 12</numIndex>
+									<numIndex index="1">col-md-9</numIndex>
+								</numIndex>
+								<numIndex index="10" type="array">
+									<numIndex index="0">10 of 12</numIndex>
+									<numIndex index="1">col-md-10</numIndex>
+								</numIndex>
+								<numIndex index="11" type="array">
+									<numIndex index="0">11 of 12</numIndex>
+									<numIndex index="1">col-md-11</numIndex>
+								</numIndex>
+								<numIndex index="12" type="array">
+									<numIndex index="0">12 of 12</numIndex>
+									<numIndex index="1">col-md-12</numIndex>
+								</numIndex>
+							</items>
+							<default>col-md-12</default>
+						</config>
+					</TCEforms>
 				</column_3_md>
 				<column_3_lg type="array">
-						<TCEforms type="array">
-								<label>LLL:EXT:theme_t3kit/Resources/Private/Language/GridElements.xlf:column_3_lg</label>
-								<config type="array">
-										<type>select</type>
-										<items type="array">
-											<numIndex index="0" type="array">
-												<numIndex index="0">-</numIndex>
-												<numIndex index="1"></numIndex>
-											</numIndex>
-											<numIndex index="1" type="array">
-												<numIndex index="0">Hidden</numIndex>
-												<numIndex index="1">hidden-lg</numIndex>
-											</numIndex>
-											<numIndex index="2" type="array">
-												<numIndex index="0">1 of 12</numIndex>
-												<numIndex index="1">col-lg-1</numIndex>
-											</numIndex>
-											<numIndex index="3" type="array">
-												<numIndex index="0">2 of 12</numIndex>
-												<numIndex index="1">col-lg-2</numIndex>
-											</numIndex>
-											<numIndex index="4" type="array">
-												<numIndex index="0">3 of 12</numIndex>
-												<numIndex index="1">col-lg-3</numIndex>
-											</numIndex>
-											<numIndex index="5" type="array">
-												<numIndex index="0">4 of 12</numIndex>
-												<numIndex index="1">col-lg-4</numIndex>
-											</numIndex>
-											<numIndex index="6" type="array">
-												<numIndex index="0">5 of 12</numIndex>
-												<numIndex index="1">col-lg-5</numIndex>
-											</numIndex>
-											<numIndex index="7" type="array">
-												<numIndex index="0">6 of 12</numIndex>
-												<numIndex index="1">col-lg-6</numIndex>
-											</numIndex>
-											<numIndex index="8" type="array">
-												<numIndex index="0">7 of 12</numIndex>
-												<numIndex index="1">col-lg-7</numIndex>
-											</numIndex>
-											<numIndex index="9" type="array">
-												<numIndex index="0">8 of 12</numIndex>
-												<numIndex index="1">col-lg-8</numIndex>
-											</numIndex>
-											<numIndex index="10" type="array">
-												<numIndex index="0">9 of 12</numIndex>
-												<numIndex index="1">col-lg-9</numIndex>
-											</numIndex>
-											<numIndex index="11" type="array">
-												<numIndex index="0">10 of 12</numIndex>
-												<numIndex index="1">col-lg-10</numIndex>
-											</numIndex>
-											<numIndex index="12" type="array">
-												<numIndex index="0">11 of 12</numIndex>
-												<numIndex index="1">col-lg-11</numIndex>
-											</numIndex>
-											<numIndex index="13" type="array">
-												<numIndex index="0">12 of 12</numIndex>
-												<numIndex index="1">col-lg-12</numIndex>
-											</numIndex>
-										</items>
-										<default></default>
-								</config>
-						</TCEforms>
+					<TCEforms type="array">
+						<label>LLL:EXT:theme_t3kit/Resources/Private/Language/GridElements.xlf:column_3_lg</label>
+						<config type="array">
+							<type>select</type>
+							<items type="array">
+								<numIndex index="0" type="array">
+									<numIndex index="0">-</numIndex>
+									<numIndex index="1"></numIndex>
+								</numIndex>
+								<numIndex index="1" type="array">
+									<numIndex index="0">1 of 12</numIndex>
+									<numIndex index="1">col-lg-1</numIndex>
+								</numIndex>
+								<numIndex index="2" type="array">
+									<numIndex index="0">2 of 12</numIndex>
+									<numIndex index="1">col-lg-2</numIndex>
+								</numIndex>
+								<numIndex index="3" type="array">
+									<numIndex index="0">3 of 12</numIndex>
+									<numIndex index="1">col-lg-3</numIndex>
+								</numIndex>
+								<numIndex index="4" type="array">
+									<numIndex index="0">4 of 12</numIndex>
+									<numIndex index="1">col-lg-4</numIndex>
+								</numIndex>
+								<numIndex index="5" type="array">
+									<numIndex index="0">5 of 12</numIndex>
+									<numIndex index="1">col-lg-5</numIndex>
+								</numIndex>
+								<numIndex index="6" type="array">
+									<numIndex index="0">6 of 12</numIndex>
+									<numIndex index="1">col-lg-6</numIndex>
+								</numIndex>
+								<numIndex index="7" type="array">
+									<numIndex index="0">7 of 12</numIndex>
+									<numIndex index="1">col-lg-7</numIndex>
+								</numIndex>
+								<numIndex index="8" type="array">
+									<numIndex index="0">8 of 12</numIndex>
+									<numIndex index="1">col-lg-8</numIndex>
+								</numIndex>
+								<numIndex index="9" type="array">
+									<numIndex index="0">9 of 12</numIndex>
+									<numIndex index="1">col-lg-9</numIndex>
+								</numIndex>
+								<numIndex index="10" type="array">
+									<numIndex index="0">10 of 12</numIndex>
+									<numIndex index="1">col-lg-10</numIndex>
+								</numIndex>
+								<numIndex index="11" type="array">
+									<numIndex index="0">11 of 12</numIndex>
+									<numIndex index="1">col-lg-11</numIndex>
+								</numIndex>
+								<numIndex index="12" type="array">
+									<numIndex index="0">12 of 12</numIndex>
+									<numIndex index="1">col-lg-12</numIndex>
+								</numIndex>
+							</items>
+							<default></default>
+						</config>
+					</TCEforms>
 				</column_3_lg>
+				<column_3_xl type="array">
+					<TCEforms type="array">
+						<label>LLL:EXT:theme_t3kit/Resources/Private/Language/GridElements.xlf:column_3_xl</label>
+						<config type="array">
+							<type>select</type>
+							<items type="array">
+								<numIndex index="0" type="array">
+									<numIndex index="0">-</numIndex>
+									<numIndex index="1"></numIndex>
+								</numIndex>
+								<numIndex index="1" type="array">
+									<numIndex index="0">1 of 12</numIndex>
+									<numIndex index="1">col-xl-1</numIndex>
+								</numIndex>
+								<numIndex index="2" type="array">
+									<numIndex index="0">2 of 12</numIndex>
+									<numIndex index="1">col-xl-2</numIndex>
+								</numIndex>
+								<numIndex index="3" type="array">
+									<numIndex index="0">3 of 12</numIndex>
+									<numIndex index="1">col-xl-3</numIndex>
+								</numIndex>
+								<numIndex index="4" type="array">
+									<numIndex index="0">4 of 12</numIndex>
+									<numIndex index="1">col-xl-4</numIndex>
+								</numIndex>
+								<numIndex index="5" type="array">
+									<numIndex index="0">5 of 12</numIndex>
+									<numIndex index="1">col-xl-5</numIndex>
+								</numIndex>
+								<numIndex index="6" type="array">
+									<numIndex index="0">6 of 12</numIndex>
+									<numIndex index="1">col-xl-6</numIndex>
+								</numIndex>
+								<numIndex index="7" type="array">
+									<numIndex index="0">7 of 12</numIndex>
+									<numIndex index="1">col-xl-7</numIndex>
+								</numIndex>
+								<numIndex index="8" type="array">
+									<numIndex index="0">8 of 12</numIndex>
+									<numIndex index="1">col-xl-8</numIndex>
+								</numIndex>
+								<numIndex index="9" type="array">
+									<numIndex index="0">9 of 12</numIndex>
+									<numIndex index="1">col-xl-9</numIndex>
+								</numIndex>
+								<numIndex index="10" type="array">
+									<numIndex index="0">10 of 12</numIndex>
+									<numIndex index="1">col-xl-10</numIndex>
+								</numIndex>
+								<numIndex index="11" type="array">
+									<numIndex index="0">11 of 12</numIndex>
+									<numIndex index="1">col-xl-11</numIndex>
+								</numIndex>
+								<numIndex index="12" type="array">
+									<numIndex index="0">12 of 12</numIndex>
+									<numIndex index="1">col-xl-12</numIndex>
+								</numIndex>
+							</items>
+							<default></default>
+						</config>
+					</TCEforms>
+				</column_3_xl>
 				<column_3_layout type="array">
-						<TCEforms type="array">
-								<label>LLL:EXT:theme_t3kit/Resources/Private/Language/GridElements.xlf:column_3_layout</label>
-								<config type="array">
-										<type>select</type>
-										<items type="array">
-											<numIndex index="0" type="array">
-												<numIndex index="0">-</numIndex>
-												<numIndex index="1"></numIndex>
-											</numIndex>
-										</items>
-										<default></default>
-								</config>
-						</TCEforms>
+					<TCEforms type="array">
+						<label>LLL:EXT:theme_t3kit/Resources/Private/Language/GridElements.xlf:column_3_layout</label>
+						<config type="array">
+							<type>select</type>
+							<items type="array">
+								<numIndex index="0" type="array">
+									<numIndex index="0">-</numIndex>
+									<numIndex index="1"></numIndex>
+								</numIndex>
+							</items>
+							<default></default>
+						</config>
+					</TCEforms>
 				</column_3_layout>
 				<column_3_offset type="array">
-						<TCEforms type="array">
-								<label>LLL:EXT:theme_t3kit/Resources/Private/Language/GridElements.xlf:column_3_offset</label>
-								<config type="array">
-										<type>select</type>
-										<items type="array">
-											<numIndex index="0" type="array">
-												<numIndex index="0">-</numIndex>
-												<numIndex index="1"></numIndex>
-											</numIndex>
-											<numIndex index="1" type="array">
-												<numIndex index="0">Column offset 1 of 12 (col-md)</numIndex>
-												<numIndex index="1">col-md-offset-1</numIndex>
-											</numIndex>
-											<numIndex index="2" type="array">
-												<numIndex index="0">Column offset 2 of 12 (col-md)</numIndex>
-												<numIndex index="1">col-md-offset-2</numIndex>
-											</numIndex>
-											<numIndex index="3" type="array">
-												<numIndex index="0">Column offset 3 of 12 (col-md)</numIndex>
-												<numIndex index="1">col-md-offset-3</numIndex>
-											</numIndex>
-											<numIndex index="4" type="array">
-												<numIndex index="0">Column offset 4 of 12 (col-md)</numIndex>
-												<numIndex index="1">col-md-offset-4</numIndex>
-											</numIndex>
-											<numIndex index="5" type="array">
-												<numIndex index="0">Column offset 5 of 12 (col-md)</numIndex>
-												<numIndex index="1">col-md-offset-5</numIndex>
-											</numIndex>
-											<numIndex index="6" type="array">
-												<numIndex index="0">Column offset 6 of 12 (col-md)</numIndex>
-												<numIndex index="1">col-md-offset-6</numIndex>
-											</numIndex>
-											<numIndex index="7" type="array">
-												<numIndex index="0">Column offset 7 of 12 (col-md)</numIndex>
-												<numIndex index="1">col-md-offset-7</numIndex>
-											</numIndex>
-											<numIndex index="8" type="array">
-												<numIndex index="0">Column offset 8 of 12 (col-md)</numIndex>
-												<numIndex index="1">col-md-offset-8</numIndex>
-											</numIndex>
-											<numIndex index="9" type="array">
-												<numIndex index="0">Column offset 9 of 12 (col-md)</numIndex>
-												<numIndex index="1">col-md-offset-9</numIndex>
-											</numIndex>
-											<numIndex index="10" type="array">
-												<numIndex index="0">Column offset 10 of 12 (col-md)</numIndex>
-												<numIndex index="1">col-md-offset-10</numIndex>
-											</numIndex>
-											<numIndex index="11" type="array">
-												<numIndex index="0">Column offset 11 of 12 (col-md)</numIndex>
-												<numIndex index="1">col-md-offset-11</numIndex>
-											</numIndex>
-										</items>
-										<default></default>
-								</config>
-						</TCEforms>
+					<TCEforms type="array">
+						<label>LLL:EXT:theme_t3kit/Resources/Private/Language/GridElements.xlf:column_3_offset</label>
+						<config type="array">
+							<type>select</type>
+							<items type="array">
+								<numIndex index="0" type="array">
+									<numIndex index="0">-</numIndex>
+									<numIndex index="1"></numIndex>
+								</numIndex>
+								<numIndex index="1" type="array">
+									<numIndex index="0">Column offset 1 of 12 (col-lg)</numIndex>
+									<numIndex index="1">col-lg-offset-1</numIndex>
+								</numIndex>
+								<numIndex index="2" type="array">
+									<numIndex index="0">Column offset 2 of 12 (col-lg)</numIndex>
+									<numIndex index="1">col-lg-offset-2</numIndex>
+								</numIndex>
+								<numIndex index="3" type="array">
+									<numIndex index="0">Column offset 3 of 12 (col-lg)</numIndex>
+									<numIndex index="1">col-lg-offset-3</numIndex>
+								</numIndex>
+								<numIndex index="4" type="array">
+									<numIndex index="0">Column offset 4 of 12 (col-lg)</numIndex>
+									<numIndex index="1">col-lg-offset-4</numIndex>
+								</numIndex>
+								<numIndex index="5" type="array">
+									<numIndex index="0">Column offset 5 of 12 (col-lg)</numIndex>
+									<numIndex index="1">col-lg-offset-5</numIndex>
+								</numIndex>
+								<numIndex index="6" type="array">
+									<numIndex index="0">Column offset 6 of 12 (col-lg)</numIndex>
+									<numIndex index="1">col-lg-offset-6</numIndex>
+								</numIndex>
+								<numIndex index="7" type="array">
+									<numIndex index="0">Column offset 7 of 12 (col-lg)</numIndex>
+									<numIndex index="1">col-lg-offset-7</numIndex>
+								</numIndex>
+								<numIndex index="8" type="array">
+									<numIndex index="0">Column offset 8 of 12 (col-lg)</numIndex>
+									<numIndex index="1">col-lg-offset-8</numIndex>
+								</numIndex>
+								<numIndex index="9" type="array">
+									<numIndex index="0">Column offset 9 of 12 (col-lg)</numIndex>
+									<numIndex index="1">col-lg-offset-9</numIndex>
+								</numIndex>
+								<numIndex index="10" type="array">
+									<numIndex index="0">Column offset 10 of 12 (col-lg)</numIndex>
+									<numIndex index="1">col-lg-offset-10</numIndex>
+								</numIndex>
+								<numIndex index="11" type="array">
+									<numIndex index="0">Column offset 11 of 12 (col-lg)</numIndex>
+									<numIndex index="1">col-lg-offset-11</numIndex>
+								</numIndex>
+							</items>
+							<default></default>
+						</config>
+					</TCEforms>
 				</column_3_offset>
 				<column_3_content_wrapper>
 					<TCEforms type="array">
-								<label>LLL:EXT:theme_t3kit/Resources/Private/Language/GridElements.xlf:column_3_content_wrapper</label>
-								<config type="array">
-										<type>select</type>
-										<items type="array">
-											<numIndex index="0" type="array">
-												<numIndex index="0">-</numIndex>
-												<numIndex index="1"></numIndex>
-											</numIndex>
-										</items>
-										<default></default>
-								</config>
+						<label>LLL:EXT:theme_t3kit/Resources/Private/Language/GridElements.xlf:column_3_content_wrapper</label>
+						<config type="array">
+							<type>select</type>
+							<items type="array">
+								<numIndex index="0" type="array">
+									<numIndex index="0">-</numIndex>
+									<numIndex index="1"></numIndex>
+								</numIndex>
+							</items>
+							<default></default>
+						</config>
 					</TCEforms>
 				</column_3_content_wrapper>
 				<column_3_class>
@@ -1131,6 +1415,76 @@
 						</config>
 					</TCEforms>
 				</column_3_class>
+				<column_3_hidden type="array">
+					<TCEforms type="array">
+						<label>LLL:EXT:theme_t3kit/Resources/Private/Language/GridElements.xlf:column_3_hidden</label>
+						<config type="array">
+							<type>select</type>
+							<items type="array">
+								<numIndex index="0" type="array">
+									<numIndex index="0">-</numIndex>
+									<numIndex index="1"></numIndex>
+								</numIndex>
+								<numIndex index="1" type="array">
+									<numIndex index="0">xs (all sizes)</numIndex>
+									<numIndex index="1">d-none</numIndex>
+								</numIndex>
+								<numIndex index="2" type="array">
+									<numIndex index="0">sm</numIndex>
+									<numIndex index="1">d-sm-none</numIndex>
+								</numIndex>
+								<numIndex index="3" type="array">
+									<numIndex index="0">md</numIndex>
+									<numIndex index="1">d-md-none</numIndex>
+								</numIndex>
+								<numIndex index="4" type="array">
+									<numIndex index="0">lg</numIndex>
+									<numIndex index="1">d-lg-none</numIndex>
+								</numIndex>
+								<numIndex index="5" type="array">
+									<numIndex index="0">xl</numIndex>
+									<numIndex index="1">d-xl-none</numIndex>
+								</numIndex>
+							</items>
+							<default></default>
+						</config>
+					</TCEforms>
+				</column_3_hidden>
+				<column_3_visible type="array">
+					<TCEforms type="array">
+						<label>LLL:EXT:theme_t3kit/Resources/Private/Language/GridElements.xlf:column_3_visible</label>
+						<config type="array">
+							<type>select</type>
+							<items type="array">
+								<numIndex index="0" type="array">
+									<numIndex index="0">-</numIndex>
+									<numIndex index="1"></numIndex>
+								</numIndex>
+								<numIndex index="1" type="array">
+									<numIndex index="0">xs (all sizes)</numIndex>
+									<numIndex index="1">d-block</numIndex>
+								</numIndex>
+								<numIndex index="2" type="array">
+									<numIndex index="0">sm</numIndex>
+									<numIndex index="1">d-sm-block</numIndex>
+								</numIndex>
+								<numIndex index="3" type="array">
+									<numIndex index="0">md</numIndex>
+									<numIndex index="1">d-md-block</numIndex>
+								</numIndex>
+								<numIndex index="4" type="array">
+									<numIndex index="0">lg</numIndex>
+									<numIndex index="1">d-lg-block</numIndex>
+								</numIndex>
+								<numIndex index="5" type="array">
+									<numIndex index="0">xl</numIndex>
+									<numIndex index="1">d-xl-block</numIndex>
+								</numIndex>
+							</items>
+							<default></default>
+						</config>
+					</TCEforms>
+				</column_3_visible>
 			</el>
 		</ROOT>
 	</columns>
