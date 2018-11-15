@@ -1,8 +1,24 @@
 <f:layout name="NoBgImage" />
 <f:section name="Main">
-	<ul class="nav {f:if(condition: '{data.pi_flexform.data.columns.lDEF.tabstyle.vDEF}', then: 'nav-pills', else: 'nav-tabs')}" role="tablist" id="tab-{f:if(condition: data._LOCALIZED_UID, then: data._LOCALIZED_UID, else: data.uid)}" >
+	<ul
+		role="tablist"
+		id="tab-{f:if(condition: data._LOCALIZED_UID, then: data._LOCALIZED_UID, else: data.uid)}"
+		class="nav {f:if(condition: '{data.pi_flexform.data.columns.lDEF.tabstyle.vDEF}', then: 'nav-pills', else: 'nav-tabs')}"
+	>
 		<f:for each="{data.tx_gridelements_view_children}" as="tab" iteration="tabIteration">
-		 	<li {f:if(condition: '{tabIteration.index} == 0', then: ' class="active"', else: '')}><a href="#tab-{tab.uid}" aria-controls="tab-{tab.uid}" role="tab" data-toggle="{f:if(condition: '{data.pi_flexform.data.columns.lDEF.tabstyle.vDEF}', then: 'pill', else: 'tab')}">{tab.header}</a></li>
+			<li
+				class="nav-item{f:if(condition: '{tabIteration.isFirst}', then: ' active', else: '')}"
+			>
+				<a
+					role="tab"
+					data-target="#tab-{tab.uid}"
+					data-toggle="{f:if(condition: '{data.pi_flexform.data.columns.lDEF.tabstyle.vDEF}', then: 'pill', else: 'tab')}"
+					aria-controls="tab-{tab.uid}"
+					aria-selected="{f:if(condition: '{tabIteration.isFirst}', then: 'true', else: 'false')}"
+				>
+					{tab.header}
+				</a>
+			</li>
 		</f:for>
 	</ul>
 	<div class="tab-content">

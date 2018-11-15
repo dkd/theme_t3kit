@@ -18,41 +18,34 @@ lib.gridelements {
                     # class
                     30 = TEXT
                     30 {
-                        value = class="
+                        value.noTrimWrap = |class="tab-pane fade|
                     }
-                    35 = TEXT
-                    35 {
-                        value = tab-pane
-                    }
-                    40 = TEXT
-                    40 {
-                        value.noTrimWrap = | fade|
-                    }
-                    45 = TEXT
-                    45 {
-                        value.noTrimWrap = | in active|
+                    31 = TEXT
+                    31 {
+                        value.noTrimWrap = | show active|
                         if {
                             value = 1
                             equals.data = register:tabNumber
                         }
                     }
-                    46 = TEXT
-                    46 {
+                    32 = TEXT
+                    32 {
                         value.noTrimWrap = | number-{register:tabNumber}|
                         value.insertData = 1
                     }
-                    47 = TEXT
-                    47 {
+                    33 = TEXT
+                    33 {
                         value.noTrimWrap = | pid-{register:parentUid}|
                         value.insertData = 1
                     }
-                    50 = TEXT
-                    50 {
+                    39 = TEXT
+                    39 {
                         value = "
                     }
+
                     # id
-                    60 = TEXT
-                    60 {
+                    40 = TEXT
+                    40 {
                         field = uid
                         noTrimWrap = | id="tab-|"|
                     }

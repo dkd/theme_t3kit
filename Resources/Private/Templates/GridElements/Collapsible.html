@@ -1,18 +1,33 @@
-<f:layout name="{f:if(condition: data.tx_gridelements_container, then: 'Empty', else: 'NoBgImage')}" />
+<f:layout
+	name="{f:if(condition: data.tx_gridelements_container, then: 'Empty', else: 'NoBgImage')}"/>
 <f:section name="Main">
-	<div class="panel panel-default {layoutClass} {alignClass}">
-		<div class="panel-heading" role="tab" id="heading-{data.uid}">
-            <f:variable name="parentHeader">{data.parentgrid_header_layout}</f:variable>
-            <f:render partial="Header/Header" arguments="{
-				header: '{f:render(section: \'accordionLink\', arguments: \'{_all}\')}',
-                layout: '{f:if(condition:\'{parentHeader} > 0 && {parentHeader} < 6 \', then:\'{parentHeader + 1}\')}',
-				positionClass: 'panel-title',
-				link: '',
-				uid: '{data.uid}',
-				default: 4
-				}" />
+	<div class="panel {layoutClass} {alignClass}">
+		<div
+			class="panel-heading"
+			role="tab"
+			id="heading-{data.uid}"
+		>
+			<f:variable name="parentHeader">{data.parentgrid_header_layout}
+			</f:variable>
+			<f:render
+				partial="Header/Header"
+				arguments="{
+					header: '{f:render(section: \'accordionLink\', arguments: \'{_all}\')}',
+					layout: '{f:if(condition:\'{parentHeader} > 0 && {parentHeader} < 6 \', then:\'{parentHeader + 1}\')}',
+					positionClass: 'panel-title',
+					link: '',
+					uid: '{data.uid}',
+					default: 4
+				}"
+			/>
 		</div>
-		<div id="collapse-{data.uid}" class="panel-collapse collapse {f:if(condition: data.pi_flexform.data.columns.lDEF.expanded.vDEF, then: 'in', else: '')}" role="tabpanel">
+		<div
+			id="collapse-{data.uid}"
+			class="panel-collapse collapse {f:if(condition: data.pi_flexform.data.columns.lDEF.expanded.vDEF, then: 'show', else: '')}"
+			role="tabpanel"
+			aria-labelledby="#heading-{data.uid}"
+			data-parent="#group-{data.tx_gridelements_container}"
+		>
 			<div class="panel-body">
 				<f:format.raw>{data.tx_gridelements_view_column_0}</f:format.raw>
 			</div>
@@ -21,6 +36,14 @@
 </f:section>
 
 <f:section name="accordionLink">
-	<f:link.page pageUid="#collapse-{data.uid}" absolute="1" class="{f:if(condition: data.pi_flexform.data.columns.lDEF.expanded.vDEF, then: '', else: 'collapsed')}"
-				 additionalAttributes="{'data-toggle':'collapse', 'data-parent': '#group-{data.tx_gridelements_container}'}">{data.header}</f:link.page>
+	<button
+		type="button"
+		class="{f:if(condition: data.pi_flexform.data.columns.lDEF.expanded.vDEF, then: '', else: 'collapsed')}"
+		data-toggle="collapse"
+		data-target="#collapse-{data.uid}"
+		aria-expanded="{f:if(condition: data.pi_flexform.data.columns.lDEF.expanded.vDEF, then: 'true', else: 'false')}"
+		aria-controls="collapse-{data.uid}"
+	>
+		{data.header}
+	</button>
 </f:section>
