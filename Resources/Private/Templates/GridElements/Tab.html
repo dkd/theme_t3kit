@@ -1,5 +1,35 @@
-<f:layout name="{f:if(condition: data.tx_gridelements_container, then: 'Empty', else: 'NoBgImage')}" />
+<f:layout
+	name="{f:if(condition: data.tx_gridelements_container, then: 'Empty', else: 'NoBgImage')}"/>
 <f:section name="Main">
-	blub
-	<f:format.raw>{data.tx_gridelements_view_column_0}</f:format.raw>
+	<div
+		role="tabpanel"
+		class="panel tab-pane fade number-{tabNumber} pid-{data.parentgrid_uid}{f:if(condition: '{tabNumber}==1', then: ' show active', else: '')}"
+		id="tab-{data.uid}"
+	>
+		<div class="panel-heading" role="tab" id="heading-{data.uid}">
+			<h4>
+				<a
+					class="{f:if(condition: '{tabNumber}==1', then: '', else: 'collapsed')}"
+					data-toggle="collapse"
+					data-target="#collapse-{data.uid}"
+					data-parent="#tab-content-{data.parentgrid_uid}"
+					aria-expanded="{f:if(condition: '{tabNumber}==1', then: 'true', else: 'false')}"
+					aria-controls="collapse-{data.uid}"
+				>
+					{data.header}
+				</a>
+			</h4>
+		</div>
+		<div
+			id="collapse-{data.uid}"
+			class="collapse{f:if(condition: '{tabNumber}==1', then: ' show', else: '')}"
+			role="tabpanel"
+			data-parent="#tab-content-{data.parentgrid_uid}"
+			aria-labelledby="heading-{data.uid}"
+		>
+			<div class="card-body">
+				<f:format.raw>{data.tx_gridelements_view_column_0}</f:format.raw>
+			</div>
+		</div>
+	</div>
 </f:section>

@@ -1,0 +1,32 @@
+.nav-tabs.tabcollapse, .nav-pills.tabcollapse {
+    display:none;
+}
+
+@include media-breakpoint-up(md) {
+    .nav-tabs.tabcollapse, .nav-pills.tabcollapse {
+        display: flex;
+    }
+
+    .tab-content.tabcollapse {
+        .panel {
+            border: none;
+        }
+
+        .panel .panel-heading {
+            display:none;
+        }
+
+        .panel .collapse {
+            display:block;
+        }
+    }
+}
+
+@include media-breakpoint-down(md) {
+    .tab-content.tabcollapse {
+        .tab-pane {
+            display: block !important;
+            opacity: 1;
+        }
+    }
+}

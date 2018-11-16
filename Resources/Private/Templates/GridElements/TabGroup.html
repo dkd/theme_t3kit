@@ -3,14 +3,13 @@
 	<ul
 		role="tablist"
 		id="tab-{f:if(condition: data._LOCALIZED_UID, then: data._LOCALIZED_UID, else: data.uid)}"
-		class="nav {f:if(condition: '{data.pi_flexform.data.columns.lDEF.tabstyle.vDEF}', then: 'nav-pills', else: 'nav-tabs')}"
+		class="nav tabcollapse {f:if(condition: '{data.pi_flexform.data.columns.lDEF.tabstyle.vDEF}', then: 'nav-pills', else: 'nav-tabs')}"
 	>
 		<f:for each="{data.tx_gridelements_view_children}" as="tab" iteration="tabIteration">
-			<li
-				class="nav-item{f:if(condition: '{tabIteration.isFirst}', then: ' active', else: '')}"
-			>
+			<li class="nav-item">
 				<a
 					role="tab"
+					class="{f:if(condition: '{tabIteration.isFirst}', then: 'active show', else: '')}"
 					data-target="#tab-{tab.uid}"
 					data-toggle="{f:if(condition: '{data.pi_flexform.data.columns.lDEF.tabstyle.vDEF}', then: 'pill', else: 'tab')}"
 					aria-controls="tab-{tab.uid}"
@@ -21,7 +20,7 @@
 			</li>
 		</f:for>
 	</ul>
-	<div class="tab-content">
+	<div id="tab-content-{data.uid}" class="tab-content tabcollapse">
 		<f:format.raw>{data.tx_gridelements_view_column_0}</f:format.raw>
 	</div>
 </f:section>

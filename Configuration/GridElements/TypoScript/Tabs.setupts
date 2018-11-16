@@ -6,7 +6,6 @@ lib.gridelements {
             0 {
                 prepend = COA
                 prepend {
-                    # increase "tab" counter
                     10 = LOAD_REGISTER
                     10 {
                         tabNumber.cObject = TEXT
@@ -14,48 +13,18 @@ lib.gridelements {
                         tabNumber.cObject.wrap = |+1
                         tabNumber.prioriCalc = intval
                     }
-
-                    # class
-                    30 = TEXT
-                    30 {
-                        value.noTrimWrap = |class="tab-pane fade|
-                    }
-                    31 = TEXT
-                    31 {
-                        value.noTrimWrap = | show active|
-                        if {
-                            value = 1
-                            equals.data = register:tabNumber
-                        }
-                    }
-                    32 = TEXT
-                    32 {
-                        value.noTrimWrap = | number-{register:tabNumber}|
-                        value.insertData = 1
-                    }
-                    33 = TEXT
-                    33 {
-                        value.noTrimWrap = | pid-{register:parentUid}|
-                        value.insertData = 1
-                    }
-                    39 = TEXT
-                    39 {
-                        value = "
-                    }
-
-                    # id
-                    40 = TEXT
-                    40 {
-                        field = uid
-                        noTrimWrap = | id="tab-|"|
-                    }
-                    stdWrap.noTrimWrap = |<div role="tabpanel" |>|
                 }
-                wrap = |</div>
             }
         }
 
         cObject {
+            variables {
+                tabNumber = TEXT
+                tabNumber {
+                    value = {register:tabNumber}
+                    value.insertData = 1
+                }
+            }
             file = EXT:theme_t3kit/Resources/Private/Templates/GridElements/Tab.html
             dataProcessing {
                 10 = TYPO3\CMS\Frontend\DataProcessing\FilesProcessor
