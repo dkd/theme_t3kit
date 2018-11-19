@@ -3,25 +3,13 @@
     margin: 40px 0 20px;
 }
 
-@include media-breakpoint-between(md, lg, (
-    xs: 0,
-    sm: 576px,
-    md: 768px,
-    lg: $screen-md--custom,
-    xl: 1200px
-)) {
+@include media-breakpoint-between(md, lg) {
     .news-carousel {
         padding: 0 30px;
     }
 }
 
-@include media-breakpoint-between(md, lg, (
-    xs: 0,
-    sm: 576px,
-    md: 768px,
-    lg: 992px,
-    xl: $screen-lg--custom
-)) {
+@include media-breakpoint-between(md, lg) {
     .news-carousel {
         padding: 0 30px;
     }
@@ -130,13 +118,7 @@
     left: -50px;
 }
 
-@include media-breakpoint-between(md, lg, (
-    xs: 0,
-    sm: 576px,
-    md: 768px,
-    lg: $screen-md--custom,
-    xl: 1200px
-)) {
+@include media-breakpoint-between(md, lg) {
     .news-carousel__btn-next {
         right: -12px;
     }
@@ -146,13 +128,7 @@
     }
 }
 
-@include media-breakpoint-between(md, lg, (
-    xs: 0,
-    sm: 576px,
-    md: 768px,
-    lg: 992px,
-    xl: $screen-lg--custom
-)) {
+@include media-breakpoint-between(md, lg) {
     .news-carousel__btn-next {
         right: -16px;
     }

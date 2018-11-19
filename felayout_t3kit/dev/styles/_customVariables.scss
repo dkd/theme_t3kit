@@ -1,7 +1,13 @@
 // Custom media queries breakpoints
-$screen-xs--custom: 520px;
-$screen-md--custom: 1090px;
-$screen-lg--custom: 1300px;
+$grid-breakpoints: (
+    xs: 0,
+    sm: 576px,
+    md: 768px,
+    lg: 992px,
+    xl: 1200px,
+    xxl: 1366px,
+    xxxl: 1920px
+);
 
 // Primary color
 $main-color:                    #50b4d8; //#288FB4
@@ -75,9 +81,6 @@ $footer-background:             #181818;
 $footer-color:                  #8d8d8d;
 $footer-link-color:             $main-color;
 $footer-link-hover-color:       $main-link-hover-color;
-
-$custom-screen-xl:              1366px;
-$custom-screen-xxl:             1920px;
 
 // Bootstrap Carousel
 $carousel-indicator-bg:         $main-body-bg;

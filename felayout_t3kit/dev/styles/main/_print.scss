@@ -100,7 +100,7 @@
     .img-text-link img {
         width: 240px;
 
-        @media (min-width: $screen-xs--custom) {
+        @include media-breakpoint-up(sm) {
             float: left;
             margin-right: 15px;
         }

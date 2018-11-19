@@ -256,7 +256,7 @@
     }
 }
 
-@media (min-width: $custom-screen-xl) {
+@include media-breakpoint-up(xxl) {
     // Align caption with content
     .top-content {
         .carousel-caption {
@@ -266,7 +266,7 @@
     }
 }
 
-@media (min-width: $custom-screen-xxl) {
+@include media-breakpoint-up(xxxl) {
     .top-content {
         .carousel-caption {
             width: 35%;
