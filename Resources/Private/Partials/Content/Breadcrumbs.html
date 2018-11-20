@@ -6,7 +6,7 @@
 
 	<f:if condition="{theme:constant(constant:'themes.configuration.menu.breadcrumb.showBreadcrumbs')}">
 		<f:if condition="{theme:constant(constant:'themes.configuration.menu.breadcrumb.hideBreadcrumbsInMobile')}">
-			<div class="hidden-sm hidden-xs">
+			<div class="d-none d-lg-block">
 		</f:if>
 
 		<f:cObject typoscriptObjectPath="lib.menu.breadcrumb"/>
