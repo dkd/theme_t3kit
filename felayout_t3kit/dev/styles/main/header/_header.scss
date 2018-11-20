@@ -301,7 +301,7 @@
     height: 100%;
 }
 
-@include media-breakpoint-up(md) {
+@include media-breakpoint-up(lg) {
     .header-middle-wrp {
         z-index: 2500;
     }
@@ -699,7 +699,7 @@
     padding-left: 90px;
 }
 
-@include media-breakpoint-up(md) {
+@include media-breakpoint-up(lg) {
     .main-navigation {
         position: relative;
         top: 0;
