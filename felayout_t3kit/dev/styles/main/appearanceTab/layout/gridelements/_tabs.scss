@@ -1,23 +1,25 @@
-.nav-tabs.tabcollapse, .nav-pills.tabcollapse {
-    display:none;
+.nav-tabs.tabcollapse,
+.nav-pills.tabcollapse {
+    display: none;
 }
 
 @include media-breakpoint-up(md) {
-    .nav-tabs.tabcollapse, .nav-pills.tabcollapse {
+    .nav-tabs.tabcollapse,
+    .nav-pills.tabcollapse {
         display: flex;
     }
 
     .tab-content.tabcollapse {
-        .panel {
+        > .panel {
             border: none;
-        }
 
-        .panel .panel-heading {
-            display:none;
-        }
+            > .panel-heading {
+                display: none;
+            }
 
-        .panel .collapse {
-            display:block;
+            > .collapse {
+                display: block;
+            }
         }
     }
 }
