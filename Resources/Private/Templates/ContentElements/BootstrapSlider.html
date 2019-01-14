@@ -44,7 +44,7 @@
 					<f:comment> If more then one image is visible the screen reader attributes should be present</f:comment>
 					<div class="carousel-inner">
 						<f:for each="{slides}" as="image" iteration="i">
-							<div class="item{f:if(condition: i.isFirst, then: ' active')}" id="carousel-{data.uid}__tabpanel-{i.index}"
+							<div class="carousel-item{f:if(condition: i.isFirst, then: ' active')}" id="carousel-{data.uid}__tabpanel-{i.index}"
 								role="tabpanel" aria-labelledby="carousel-{data.uid}__tab-{i.index}"
 								data-controllabel="{f:translate(key:'bootstrapCarousel.ariaLabel.control', arguments:{0: '{i.cycle}', 1: '{f:count(subject: slides)}'}, extensionName:'theme_t3kit')}">
 								<f:render section="image" arguments="{_all}"/>
